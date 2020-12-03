@@ -2,6 +2,7 @@ use crate::util::read_file;
 use itertools::Itertools;
 
 pub fn run() {
+    println!("---- DAY 1 ----");
     part_1();
     part_2();
 }
@@ -23,7 +24,7 @@ fn part_1() {
     let nums: Vec<i32> = lines.split('\n').map(|s| s.parse().unwrap()).collect();
     for num in &nums {
         if nums.contains(&(2020 - num)) {
-            println!("Answer is [{}]", num * (2020 - num));
+            println!("The answer is [{}]", num * (2020 - num));
             break;
         }
     }
