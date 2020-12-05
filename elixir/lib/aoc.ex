@@ -1,7 +1,7 @@
 defmodule AOC do
     def run do
-        # Day1.run()
-        # Day2.run()
+        Day1.run()
+        Day2.run()
         Day3.run()
     end
 end
