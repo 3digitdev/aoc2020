@@ -1,5 +1,6 @@
 defmodule Day5 do
     def run do
+        IO.puts "---- DAY 5 ----"
         passes = Input.readFile("day5")
             |> Enum.filter(&(&1 != ""))
             |> Enum.map(&(String.split(&1, "")
@@ -17,29 +18,9 @@ defmodule Day5 do
         end
     end
 
-    defp part1(passes) do
-        high = passes
-            |> Enum.reduce(
-                [],
-                fn(pass, ids) ->
-                    {row, _} = pass
-                        |> Enum.reduce({0, 127}, fn(i, range) ->
-                            parseInstruction(i, "F", "B", range)
-                        end)
-                    {col, _} = pass
-                        |> Enum.reduce({0, 7}, fn(i, range) ->
-                            parseInstruction(i, "L", "R", range)
-                        end)
-                    ids ++ [row * 8 + col]
-                end)
-            |> Enum.max
-        IO.puts("The highest id is #{high}")
-    end
-
-    defp part2(passes) do
-        seating = passes
-            |> Enum.reduce((for _ <- 1..128, do: for _ <- 1..8, do: false),
-            fn(pass, seats) ->
+    defp getBoardingIds(passes) do
+        passes
+            |> Enum.reduce([],fn(pass, ids) ->
                 {row, _} = pass
                     |> Enum.reduce({0, 127}, fn(i, range) ->
                         parseInstruction(i, "F", "B", range)
@@ -48,7 +29,26 @@ defmodule Day5 do
                     |> Enum.reduce({0, 7}, fn(i, range) ->
                         parseInstruction(i, "L", "R", range)
                     end)
-                seats |> List.update_at(row, &(&1 |> List.update_at(col, fn(_) -> true end)))
+                ids ++ [row * 8 + col]
             end)
+    end
+
+    defp part1(passes) do
+        high = getBoardingIds(passes) |> Enum.max
+        IO.puts("The highest id is #{high}")
+    end
+
+    defp part2(passes) do
+        ids = getBoardingIds(passes)
+        Enum.each(0..127, fn(r) ->
+            Enum.each(0..8, fn(c) ->
+                id = r * 8 + c
+                if not (ids |> Enum.member?(id)) do
+                    if ids |> Enum.member?(id - 1) and ids |> Enum.member?(id + 1) do
+                        IO.puts "Your boarding ID is #{id}"
+                    end
+                end
+            end)
+        end)
     end
 end
