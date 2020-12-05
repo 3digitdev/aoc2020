@@ -1,7 +1,7 @@
 defmodule Day1 do
     def run do
         IO.puts("---- DAY 1 ----")
-        nums = Input.readFile("../inputs/day1.txt")
+        nums = Input.readFile("day1")
             |> Enum.map(&(String.to_integer(&1)))
         part1(nums)
         part2(nums)

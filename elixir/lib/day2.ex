@@ -1,7 +1,7 @@
 defmodule Day2 do
     def run do
         IO.puts "---- DAY 2 ----"
-        lines = Input.readFile("../inputs/day2.txt")
+        lines = Input.readFile("day2")
         part1(lines)
         part2(lines)
     end
