@@ -32,10 +32,7 @@ defmodule Day5 do
             end)
     end
 
-    defp part1(passes) do
-        high = getBoardingIds(passes) |> Enum.max
-        IO.puts "5-1: The highest id is [#{high}]"
-    end
+    defp part1(passes), do: IO.puts "5-1: The highest id is [#{getBoardingIds(passes) |> Enum.max}]"
 
     defp part2(passes) do
         ids = getBoardingIds(passes)

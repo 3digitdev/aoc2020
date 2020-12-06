@@ -26,7 +26,7 @@ defmodule Day2 do
         IO.puts "2-1: There are [#{lines |> Enum.map(&charCountValid/1) |> Enum.sum}] valid passwords"
     end
 
-    defp xor(a, b) do (a and !b) or (!a and b) end
+    defp xor(a, b), do: (a and !b) or (!a and b)
 
     defp charLocValid(passLine) do
         [one, two, char, pass] = deconstruct(passLine)

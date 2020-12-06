@@ -18,25 +18,23 @@ defmodule Day3 do
                         |> Enum.take(i) 
                         |> List.last
                     i = i + right
-                    case taken do
-                        "#" -> 
-                            {trees + 1, i, 1}
-                        _ ->
-                            {trees, i, 1}
+                    if taken == "#" do
+                        {trees + 1, i, 1}
+                    else
+                        {trees, i, 1}
                     end
                 end
             end)
         trees
     end
 
-    defp part1(lines) do
-        IO.puts "3-1: There are [#{traverse(lines, 3, 1)}] trees in the path"
-    end
+    defp part1(lines), do: IO.puts "3-1: There are [#{traverse(lines, 3, 1)}] trees in the path"
 
     defp part2(lines) do
-        total = [{1, 1}, {3, 1}, {5, 1}, {7, 1}, {1, 2}]
-            |> Enum.map(fn({r, d}) -> traverse(lines, r, d) end)
-            |> Enum.reduce(1, &*/2)
-        IO.puts "3-2: The product of the tree totals is [#{total}]"
+        IO.puts "3-2: The product of the tree totals is [#{
+            [{1, 1}, {3, 1}, {5, 1}, {7, 1}, {1, 2}]
+                |> Enum.map(fn({r, d}) -> traverse(lines, r, d) end)
+                |> Enum.reduce(1, &*/2)
+        }]"
     end
 end

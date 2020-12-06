@@ -21,7 +21,10 @@ defmodule Day4 do
                 entries = line
                     |> String.split
                     |> Enum.reduce(0, fn(entry, found) ->
-                        case fields |> Map.values |> Enum.filter(&(Regex.match?(&1, entry))) |> Enum.count do
+                        case fields 
+                            |> Map.values 
+                            |> Enum.filter(&(Regex.match?(&1, entry))) 
+                            |> Enum.count do
                             0 -> found
                             _ -> found + 1
                         end
@@ -31,7 +34,7 @@ defmodule Day4 do
         IO.puts "4-1: There are [#{validPassports}] valid passports"
     end
 
-    defp inRange?(data, range) do String.to_integer(data) in range end
+    defp inRange?(data, range), do: String.to_integer(data) in range
 
     defp fieldValid?(field, reg, entry) do
         data = reg |> Regex.named_captures(entry) |> Map.get("data")
