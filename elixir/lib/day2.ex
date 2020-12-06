@@ -1,6 +1,5 @@
 defmodule Day2 do
     def run do
-        IO.puts "---- DAY 2 ----"
         lines = Input.readFile("day2")
         part1(lines)
         part2(lines)
@@ -24,7 +23,7 @@ defmodule Day2 do
     end
 
     defp part1(lines) do
-        IO.puts "There are #{lines |> Enum.map(&charCountValid/1) |> Enum.sum} valid passwords"
+        IO.puts "2-1: There are [#{lines |> Enum.map(&charCountValid/1) |> Enum.sum}] valid passwords"
     end
 
     defp xor(a, b) do (a and !b) or (!a and b) end
@@ -38,6 +37,8 @@ defmodule Day2 do
     end
 
     defp part2(lines) do
-        IO.puts "There are #{lines |> Enum.map(&charLocValid/1) |> Enum.filter(&(&1)) |> Enum.count} valid passwords"
+        IO.puts "2-2: There are [#{
+            lines |> Enum.map(&charLocValid/1) |> Enum.filter(&(&1)) |> Enum.count
+        }] valid passwords"
     end
 end

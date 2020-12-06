@@ -1,6 +1,5 @@
 defmodule Day5 do
     def run do
-        IO.puts "---- DAY 5 ----"
         passes = Input.readFile("day5")
             |> Enum.filter(&(&1 != ""))
             |> Enum.map(&(String.split(&1, "")
@@ -35,7 +34,7 @@ defmodule Day5 do
 
     defp part1(passes) do
         high = getBoardingIds(passes) |> Enum.max
-        IO.puts("The highest id is #{high}")
+        IO.puts "5-1: The highest id is [#{high}]"
     end
 
     defp part2(passes) do
@@ -45,7 +44,7 @@ defmodule Day5 do
                 id = r * 8 + c
                 if not (ids |> Enum.member?(id)) do
                     if ids |> Enum.member?(id - 1) and ids |> Enum.member?(id + 1) do
-                        IO.puts "Your boarding ID is #{id}"
+                        IO.puts "5-2: Your boarding ID is [#{id}]"
                     end
                 end
             end)

@@ -1,10 +1,8 @@
 defmodule AOC do
     def run do
-        Day1.run()
-        Day2.run()
-        Day3.run()
-        Day4.run()
-        Day5.run()
+        tasks = [Day1, Day2, Day3, Day4, Day5]
+            |> Enum.map(fn(day) -> Task.async(fn -> day.run() end) end)
+        tasks |> Enum.each(&Task.await(&1))
     end
 end
 

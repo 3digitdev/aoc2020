@@ -1,6 +1,5 @@
 defmodule Day3 do
     def run do
-        IO.puts "---- DAY 3 ----"
         lines = Input.readFile("day3")
         part1(lines)
         part2(lines)
@@ -31,13 +30,13 @@ defmodule Day3 do
     end
 
     defp part1(lines) do
-        IO.puts "There are #{traverse(lines, 3, 1)} trees in the path"
+        IO.puts "3-1: There are [#{traverse(lines, 3, 1)}] trees in the path"
     end
 
     defp part2(lines) do
         total = [{1, 1}, {3, 1}, {5, 1}, {7, 1}, {1, 2}]
             |> Enum.map(fn({r, d}) -> traverse(lines, r, d) end)
             |> Enum.reduce(1, &*/2)
-        IO.puts "The product of the tree totals is #{total}"
+        IO.puts "3-2: The product of the tree totals is [#{total}]"
     end
 end

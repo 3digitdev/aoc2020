@@ -1,6 +1,5 @@
 defmodule Day4 do
     def run do
-        IO.puts "---- DAY 4 ----"
         lines = Input.readFile("day4") 
             |> Enum.chunk_by(&(&1 == ""))
             |> Enum.filter(&(&1 != [""]))
@@ -29,7 +28,7 @@ defmodule Day4 do
                     end)
                 if entries < Enum.count(fields) do valid else valid + 1 end
             end)
-        IO.puts "There are #{validPassports} valid passports"
+        IO.puts "4-1: There are [#{validPassports}] valid passports"
     end
 
     defp inRange?(data, range) do String.to_integer(data) in range end
@@ -71,6 +70,6 @@ defmodule Day4 do
                     |> Enum.count == fields |> Map.keys |> Enum.count
             end)
             |> Enum.count
-        IO.puts "There are #{validPassports} ACTUALLY valid passports"
+        IO.puts "4-2: There are [#{validPassports}] ACTUALLY valid passports"
     end
 end
