@@ -29,26 +29,17 @@ defmodule Day9 do
         raise("ERROR: Nothing found")
     end
     defp part2(nums, result) do
-        {sum, all, good} = nums 
-            |> Enum.reduce_while(
-                {0, [], false}, 
-                fn(num, {acc, all, good}) ->
-                    cond do
-                        (num + acc) > result -> {:halt, {acc, all, false}}
-                        (num + acc) == result -> {:halt, {num + acc, all ++ [num], true}}
-                        true -> {:cont, {num + acc, all ++ [num], false}}
-                    end
+        {sum, _} = nums 
+            |> Enum.reduce_while({0, []}, fn(num, {acc, all}) ->
+                cond do
+                    (num + acc) > result -> {:halt, {acc, all}}
+                    (num + acc) == result -> 
+                        all = all ++ [num] |> Enum.sort
+                        IO.puts "9-2: The sum of the min/max for the series is [#{List.first(all) + List.last(all)}]"
+                        {:halt, {num + acc, all}}
+                    true -> {:cont, {num + acc, all ++ [num]}}
                 end
-            )
-        if good do
-            cond do
-                sum != result -> raise("ERROR:  Good but not result?! #{sum} #{inspect all}")
-                true ->
-                    all = Enum.sort(all)
-                    IO.puts "9-2: The sum of the min/max for the series is (#{List.first(all)} + #{List.last(all)}) = [#{List.first(all) + List.last(all)}]"
-            end
-        else
-            nums |> List.delete_at(0) |> part2(result)
-        end
+            end)
+        if sum != result, do: nums |> List.delete_at(0) |> part2(result)
     end
 end
