@@ -1,8 +1,9 @@
 defmodule Day11 do
     def run do
         seats = Input.readFile("day11")
-        part1(seats)
-        part2(seats)
+        [&part1/1, &part2/1] 
+            |> Enum.map(&Task.async(fn -> &1.(seats) end))
+            |> Enum.each(&Task.await(&1, 20_000))
     end
 
     defp at(seats, r, c), do: seats |> Enum.at(r) |> Enum.at(c)

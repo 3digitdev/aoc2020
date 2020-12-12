@@ -1,0 +1,1550 @@
+Compiling 1 file (.ex)
+Moving E 41
+F 41: %Day12.Ship{east: 41, facing: 0, north: 0}
+Moving N 2
+N 2: %Day12.Ship{east: 41, facing: 0, north: 2}
+Turning Left 270 0 -> 3
+L 270: %Day12.Ship{east: 41, facing: 3, north: 2}
+Moving S 3
+S 3: %Day12.Ship{east: 41, facing: 3, north: -1}
+Moving S 85
+F 85: %Day12.Ship{east: 41, facing: 3, north: -86}
+Turning Right 90 3 -> 2
+R 90: %Day12.Ship{east: 41, facing: 2, north: -86}
+Moving E 4
+E 4: %Day12.Ship{east: 45, facing: 2, north: -86}
+Turning Right 180 2 -> 0
+R 180: %Day12.Ship{east: 45, facing: 0, north: -86}
+Moving E 4
+E 4: %Day12.Ship{east: 49, facing: 0, north: -86}
+Turning Left 90 0 -> 1
+L 90: %Day12.Ship{east: 49, facing: 1, north: -86}
+Moving N 78
+F 78: %Day12.Ship{east: 49, facing: 1, north: -8}
+Turning Right 270 1 -> 2
+R 270: %Day12.Ship{east: 49, facing: 2, north: -8}
+Moving W 63
+F 63: %Day12.Ship{east: -14, facing: 2, north: -8}
+Moving W 2
+W 2: %Day12.Ship{east: -16, facing: 2, north: -8}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -16, facing: 1, north: -8}
+Moving N 40
+F 40: %Day12.Ship{east: -16, facing: 1, north: 32}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -16, facing: 0, north: 32}
+Moving E 3
+E 3: %Day12.Ship{east: -13, facing: 0, north: 32}
+Moving S 4
+S 4: %Day12.Ship{east: -13, facing: 0, north: 28}
+Moving E 44
+F 44: %Day12.Ship{east: 31, facing: 0, north: 28}
+Moving W 3
+W 3: %Day12.Ship{east: 28, facing: 0, north: 28}
+Moving E 6
+F 6: %Day12.Ship{east: 34, facing: 0, north: 28}
+Moving S 3
+S 3: %Day12.Ship{east: 34, facing: 0, north: 25}
+Moving E 21
+F 21: %Day12.Ship{east: 55, facing: 0, north: 25}
+Moving N 1
+N 1: %Day12.Ship{east: 55, facing: 0, north: 26}
+Moving E 47
+F 47: %Day12.Ship{east: 102, facing: 0, north: 26}
+Turning Left 180 0 -> 2
+L 180: %Day12.Ship{east: 102, facing: 2, north: 26}
+Moving W 96
+F 96: %Day12.Ship{east: 6, facing: 2, north: 26}
+Moving S 5
+S 5: %Day12.Ship{east: 6, facing: 2, north: 21}
+Moving W 7
+F 7: %Day12.Ship{east: -1, facing: 2, north: 21}
+Moving S 4
+S 4: %Day12.Ship{east: -1, facing: 2, north: 17}
+Moving E 4
+E 4: %Day12.Ship{east: 3, facing: 2, north: 17}
+Moving S 2
+S 2: %Day12.Ship{east: 3, facing: 2, north: 15}
+Moving W 46
+F 46: %Day12.Ship{east: -43, facing: 2, north: 15}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: -43, facing: 3, north: 15}
+Turning Right 180 3 -> 1
+R 180: %Day12.Ship{east: -43, facing: 1, north: 15}
+Moving W 4
+W 4: %Day12.Ship{east: -47, facing: 1, north: 15}
+Moving N 4
+N 4: %Day12.Ship{east: -47, facing: 1, north: 19}
+Moving N 11
+F 11: %Day12.Ship{east: -47, facing: 1, north: 30}
+Moving N 3
+N 3: %Day12.Ship{east: -47, facing: 1, north: 33}
+Moving W 1
+W 1: %Day12.Ship{east: -48, facing: 1, north: 33}
+Moving N 51
+F 51: %Day12.Ship{east: -48, facing: 1, north: 84}
+Moving S 4
+S 4: %Day12.Ship{east: -48, facing: 1, north: 80}
+Turning Left 90 1 -> 2
+L 90: %Day12.Ship{east: -48, facing: 2, north: 80}
+Moving W 4
+W 4: %Day12.Ship{east: -52, facing: 2, north: 80}
+Moving W 93
+F 93: %Day12.Ship{east: -145, facing: 2, north: 80}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -145, facing: 1, north: 80}
+Moving N 3
+N 3: %Day12.Ship{east: -145, facing: 1, north: 83}
+Turning Right 180 1 -> 3
+R 180: %Day12.Ship{east: -145, facing: 3, north: 83}
+Moving S 66
+F 66: %Day12.Ship{east: -145, facing: 3, north: 17}
+Moving W 3
+W 3: %Day12.Ship{east: -148, facing: 3, north: 17}
+Moving S 93
+F 93: %Day12.Ship{east: -148, facing: 3, north: -76}
+Moving W 4
+W 4: %Day12.Ship{east: -152, facing: 3, north: -76}
+Moving S 20
+F 20: %Day12.Ship{east: -152, facing: 3, north: -96}
+Moving W 5
+W 5: %Day12.Ship{east: -157, facing: 3, north: -96}
+Moving S 4
+S 4: %Day12.Ship{east: -157, facing: 3, north: -100}
+Moving E 4
+E 4: %Day12.Ship{east: -153, facing: 3, north: -100}
+Moving S 4
+S 4: %Day12.Ship{east: -153, facing: 3, north: -104}
+Moving E 2
+E 2: %Day12.Ship{east: -151, facing: 3, north: -104}
+Moving S 3
+S 3: %Day12.Ship{east: -151, facing: 3, north: -107}
+Turning Left 90 3 -> 0
+L 90: %Day12.Ship{east: -151, facing: 0, north: -107}
+Moving N 5
+N 5: %Day12.Ship{east: -151, facing: 0, north: -102}
+Moving E 93
+F 93: %Day12.Ship{east: -58, facing: 0, north: -102}
+Moving E 5
+E 5: %Day12.Ship{east: -53, facing: 0, north: -102}
+Moving N 2
+N 2: %Day12.Ship{east: -53, facing: 0, north: -100}
+Moving E 50
+F 50: %Day12.Ship{east: -3, facing: 0, north: -100}
+Turning Left 270 0 -> 3
+L 270: %Day12.Ship{east: -3, facing: 3, north: -100}
+Moving S 10
+F 10: %Day12.Ship{east: -3, facing: 3, north: -110}
+Moving W 4
+W 4: %Day12.Ship{east: -7, facing: 3, north: -110}
+Turning Left 180 3 -> 1
+L 180: %Day12.Ship{east: -7, facing: 1, north: -110}
+Moving N 4
+N 4: %Day12.Ship{east: -7, facing: 1, north: -106}
+Moving E 2
+E 2: %Day12.Ship{east: -5, facing: 1, north: -106}
+Moving S 5
+S 5: %Day12.Ship{east: -5, facing: 1, north: -111}
+Moving N 17
+F 17: %Day12.Ship{east: -5, facing: 1, north: -94}
+Moving E 1
+E 1: %Day12.Ship{east: -4, facing: 1, north: -94}
+Moving N 5
+N 5: %Day12.Ship{east: -4, facing: 1, north: -89}
+Moving N 99
+F 99: %Day12.Ship{east: -4, facing: 1, north: 10}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -4, facing: 0, north: 10}
+Moving E 47
+F 47: %Day12.Ship{east: 43, facing: 0, north: 10}
+Turning Right 180 0 -> 2
+R 180: %Day12.Ship{east: 43, facing: 2, north: 10}
+Moving W 43
+F 43: %Day12.Ship{east: 0, facing: 2, north: 10}
+Moving W 3
+W 3: %Day12.Ship{east: -3, facing: 2, north: 10}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: -3, facing: 3, north: 10}
+Moving E 3
+E 3: %Day12.Ship{east: 0, facing: 3, north: 10}
+Moving N 3
+N 3: %Day12.Ship{east: 0, facing: 3, north: 13}
+Moving E 5
+E 5: %Day12.Ship{east: 5, facing: 3, north: 13}
+Moving S 1
+S 1: %Day12.Ship{east: 5, facing: 3, north: 12}
+Moving S 89
+F 89: %Day12.Ship{east: 5, facing: 3, north: -77}
+Moving W 5
+W 5: %Day12.Ship{east: 0, facing: 3, north: -77}
+Moving S 73
+F 73: %Day12.Ship{east: 0, facing: 3, north: -150}
+Turning Right 180 3 -> 1
+R 180: %Day12.Ship{east: 0, facing: 1, north: -150}
+Moving S 3
+S 3: %Day12.Ship{east: 0, facing: 1, north: -153}
+Turning Left 90 1 -> 2
+L 90: %Day12.Ship{east: 0, facing: 2, north: -153}
+Moving W 81
+F 81: %Day12.Ship{east: -81, facing: 2, north: -153}
+Moving N 4
+N 4: %Day12.Ship{east: -81, facing: 2, north: -149}
+Moving W 17
+F 17: %Day12.Ship{east: -98, facing: 2, north: -149}
+Turning Left 180 2 -> 0
+L 180: %Day12.Ship{east: -98, facing: 0, north: -149}
+Moving W 2
+W 2: %Day12.Ship{east: -100, facing: 0, north: -149}
+Moving E 56
+F 56: %Day12.Ship{east: -44, facing: 0, north: -149}
+Moving W 5
+W 5: %Day12.Ship{east: -49, facing: 0, north: -149}
+Moving N 1
+N 1: %Day12.Ship{east: -49, facing: 0, north: -148}
+Moving E 81
+F 81: %Day12.Ship{east: 32, facing: 0, north: -148}
+Moving S 1
+S 1: %Day12.Ship{east: 32, facing: 0, north: -149}
+Moving E 7
+F 7: %Day12.Ship{east: 39, facing: 0, north: -149}
+Moving S 3
+S 3: %Day12.Ship{east: 39, facing: 0, north: -152}
+Moving E 4
+E 4: %Day12.Ship{east: 43, facing: 0, north: -152}
+Moving E 26
+F 26: %Day12.Ship{east: 69, facing: 0, north: -152}
+Moving S 2
+S 2: %Day12.Ship{east: 69, facing: 0, north: -154}
+Moving W 2
+W 2: %Day12.Ship{east: 67, facing: 0, north: -154}
+Moving E 71
+F 71: %Day12.Ship{east: 138, facing: 0, north: -154}
+Moving W 5
+W 5: %Day12.Ship{east: 133, facing: 0, north: -154}
+Moving E 10
+F 10: %Day12.Ship{east: 143, facing: 0, north: -154}
+Turning Left 180 0 -> 2
+L 180: %Day12.Ship{east: 143, facing: 2, north: -154}
+Moving W 3
+F 3: %Day12.Ship{east: 140, facing: 2, north: -154}
+Moving E 1
+E 1: %Day12.Ship{east: 141, facing: 2, north: -154}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: 141, facing: 3, north: -154}
+Moving S 54
+F 54: %Day12.Ship{east: 141, facing: 3, north: -208}
+Moving E 5
+E 5: %Day12.Ship{east: 146, facing: 3, north: -208}
+Moving N 4
+N 4: %Day12.Ship{east: 146, facing: 3, north: -204}
+Turning Right 90 3 -> 2
+R 90: %Day12.Ship{east: 146, facing: 2, north: -204}
+Moving W 81
+F 81: %Day12.Ship{east: 65, facing: 2, north: -204}
+Moving W 3
+W 3: %Day12.Ship{east: 62, facing: 2, north: -204}
+Moving W 73
+F 73: %Day12.Ship{east: -11, facing: 2, north: -204}
+Moving N 5
+N 5: %Day12.Ship{east: -11, facing: 2, north: -199}
+Moving W 38
+F 38: %Day12.Ship{east: -49, facing: 2, north: -199}
+Moving S 1
+S 1: %Day12.Ship{east: -49, facing: 2, north: -200}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: -49, facing: 3, north: -200}
+Moving N 1
+N 1: %Day12.Ship{east: -49, facing: 3, north: -199}
+Turning Left 270 3 -> 2
+L 270: %Day12.Ship{east: -49, facing: 2, north: -199}
+Moving W 51
+F 51: %Day12.Ship{east: -100, facing: 2, north: -199}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -100, facing: 1, north: -199}
+Moving N 2
+N 2: %Day12.Ship{east: -100, facing: 1, north: -197}
+Moving E 1
+E 1: %Day12.Ship{east: -99, facing: 1, north: -197}
+Turning Left 90 1 -> 2
+L 90: %Day12.Ship{east: -99, facing: 2, north: -197}
+Moving W 12
+F 12: %Day12.Ship{east: -111, facing: 2, north: -197}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: -111, facing: 3, north: -197}
+Moving E 2
+E 2: %Day12.Ship{east: -109, facing: 3, north: -197}
+Moving S 69
+F 69: %Day12.Ship{east: -109, facing: 3, north: -266}
+Moving S 5
+S 5: %Day12.Ship{east: -109, facing: 3, north: -271}
+Turning Left 90 3 -> 0
+L 90: %Day12.Ship{east: -109, facing: 0, north: -271}
+Moving E 17
+F 17: %Day12.Ship{east: -92, facing: 0, north: -271}
+Turning Left 90 0 -> 1
+L 90: %Day12.Ship{east: -92, facing: 1, north: -271}
+Moving W 4
+W 4: %Day12.Ship{east: -96, facing: 1, north: -271}
+Moving S 4
+S 4: %Day12.Ship{east: -96, facing: 1, north: -275}
+Turning Left 90 1 -> 2
+L 90: %Day12.Ship{east: -96, facing: 2, north: -275}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -96, facing: 1, north: -275}
+Moving N 80
+F 80: %Day12.Ship{east: -96, facing: 1, north: -195}
+Moving W 5
+W 5: %Day12.Ship{east: -101, facing: 1, north: -195}
+Moving N 1
+N 1: %Day12.Ship{east: -101, facing: 1, north: -194}
+Moving W 2
+W 2: %Day12.Ship{east: -103, facing: 1, north: -194}
+Moving N 16
+F 16: %Day12.Ship{east: -103, facing: 1, north: -178}
+Moving S 5
+S 5: %Day12.Ship{east: -103, facing: 1, north: -183}
+Moving N 66
+F 66: %Day12.Ship{east: -103, facing: 1, north: -117}
+Moving E 3
+E 3: %Day12.Ship{east: -100, facing: 1, north: -117}
+Moving N 39
+F 39: %Day12.Ship{east: -100, facing: 1, north: -78}
+Moving W 4
+W 4: %Day12.Ship{east: -104, facing: 1, north: -78}
+Moving N 89
+F 89: %Day12.Ship{east: -104, facing: 1, north: 11}
+Moving N 5
+N 5: %Day12.Ship{east: -104, facing: 1, north: 16}
+Moving W 1
+W 1: %Day12.Ship{east: -105, facing: 1, north: 16}
+Moving N 37
+F 37: %Day12.Ship{east: -105, facing: 1, north: 53}
+Moving N 4
+N 4: %Day12.Ship{east: -105, facing: 1, north: 57}
+Moving E 4
+E 4: %Day12.Ship{east: -101, facing: 1, north: 57}
+Turning Right 270 1 -> 2
+R 270: %Day12.Ship{east: -101, facing: 2, north: 57}
+Moving E 2
+E 2: %Day12.Ship{east: -99, facing: 2, north: 57}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: -99, facing: 3, north: 57}
+Moving W 2
+W 2: %Day12.Ship{east: -101, facing: 3, north: 57}
+Moving S 99
+F 99: %Day12.Ship{east: -101, facing: 3, north: -42}
+Moving N 3
+N 3: %Day12.Ship{east: -101, facing: 3, north: -39}
+Moving E 5
+E 5: %Day12.Ship{east: -96, facing: 3, north: -39}
+Moving N 2
+N 2: %Day12.Ship{east: -96, facing: 3, north: -37}
+Moving S 38
+F 38: %Day12.Ship{east: -96, facing: 3, north: -75}
+Moving W 4
+W 4: %Day12.Ship{east: -100, facing: 3, north: -75}
+Moving S 5
+S 5: %Day12.Ship{east: -100, facing: 3, north: -80}
+Turning Left 180 3 -> 1
+L 180: %Day12.Ship{east: -100, facing: 1, north: -80}
+Moving N 9
+F 9: %Day12.Ship{east: -100, facing: 1, north: -71}
+Moving S 4
+S 4: %Day12.Ship{east: -100, facing: 1, north: -75}
+Moving W 1
+W 1: %Day12.Ship{east: -101, facing: 1, north: -75}
+Moving N 8
+F 8: %Day12.Ship{east: -101, facing: 1, north: -67}
+Moving W 5
+W 5: %Day12.Ship{east: -106, facing: 1, north: -67}
+Turning Left 90 1 -> 2
+L 90: %Day12.Ship{east: -106, facing: 2, north: -67}
+Moving W 3
+W 3: %Day12.Ship{east: -109, facing: 2, north: -67}
+Moving W 60
+F 60: %Day12.Ship{east: -169, facing: 2, north: -67}
+Moving W 2
+W 2: %Day12.Ship{east: -171, facing: 2, north: -67}
+Moving N 5
+N 5: %Day12.Ship{east: -171, facing: 2, north: -62}
+Moving W 41
+F 41: %Day12.Ship{east: -212, facing: 2, north: -62}
+Moving W 2
+W 2: %Day12.Ship{east: -214, facing: 2, north: -62}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: -214, facing: 3, north: -62}
+Moving S 75
+F 75: %Day12.Ship{east: -214, facing: 3, north: -137}
+Moving N 4
+N 4: %Day12.Ship{east: -214, facing: 3, north: -133}
+Turning Left 90 3 -> 0
+L 90: %Day12.Ship{east: -214, facing: 0, north: -133}
+Moving N 4
+N 4: %Day12.Ship{east: -214, facing: 0, north: -129}
+Moving E 5
+F 5: %Day12.Ship{east: -209, facing: 0, north: -129}
+Moving W 3
+W 3: %Day12.Ship{east: -212, facing: 0, north: -129}
+Moving S 2
+S 2: %Day12.Ship{east: -212, facing: 0, north: -131}
+Moving E 22
+F 22: %Day12.Ship{east: -190, facing: 0, north: -131}
+Turning Right 90 0 -> 3
+R 90: %Day12.Ship{east: -190, facing: 3, north: -131}
+Moving S 2
+S 2: %Day12.Ship{east: -190, facing: 3, north: -133}
+Moving W 4
+W 4: %Day12.Ship{east: -194, facing: 3, north: -133}
+Moving S 61
+F 61: %Day12.Ship{east: -194, facing: 3, north: -194}
+Moving S 1
+S 1: %Day12.Ship{east: -194, facing: 3, north: -195}
+Turning Left 90 3 -> 0
+L 90: %Day12.Ship{east: -194, facing: 0, north: -195}
+Moving N 1
+N 1: %Day12.Ship{east: -194, facing: 0, north: -194}
+Turning Left 90 0 -> 1
+L 90: %Day12.Ship{east: -194, facing: 1, north: -194}
+Moving W 4
+W 4: %Day12.Ship{east: -198, facing: 1, north: -194}
+Moving S 1
+S 1: %Day12.Ship{east: -198, facing: 1, north: -195}
+Moving W 3
+W 3: %Day12.Ship{east: -201, facing: 1, north: -195}
+Moving S 2
+S 2: %Day12.Ship{east: -201, facing: 1, north: -197}
+Moving N 94
+F 94: %Day12.Ship{east: -201, facing: 1, north: -103}
+Moving E 3
+E 3: %Day12.Ship{east: -198, facing: 1, north: -103}
+Moving N 4
+N 4: %Day12.Ship{east: -198, facing: 1, north: -99}
+Moving N 41
+F 41: %Day12.Ship{east: -198, facing: 1, north: -58}
+Moving N 1
+N 1: %Day12.Ship{east: -198, facing: 1, north: -57}
+Moving W 3
+W 3: %Day12.Ship{east: -201, facing: 1, north: -57}
+Moving N 4
+N 4: %Day12.Ship{east: -201, facing: 1, north: -53}
+Turning Right 180 1 -> 3
+R 180: %Day12.Ship{east: -201, facing: 3, north: -53}
+Moving E 4
+E 4: %Day12.Ship{east: -197, facing: 3, north: -53}
+Moving S 90
+F 90: %Day12.Ship{east: -197, facing: 3, north: -143}
+Moving W 1
+W 1: %Day12.Ship{east: -198, facing: 3, north: -143}
+Moving S 1
+S 1: %Day12.Ship{east: -198, facing: 3, north: -144}
+Moving E 5
+E 5: %Day12.Ship{east: -193, facing: 3, north: -144}
+Moving N 5
+N 5: %Day12.Ship{east: -193, facing: 3, north: -139}
+Turning Right 90 3 -> 2
+R 90: %Day12.Ship{east: -193, facing: 2, north: -139}
+Moving W 3
+W 3: %Day12.Ship{east: -196, facing: 2, north: -139}
+Moving S 1
+S 1: %Day12.Ship{east: -196, facing: 2, north: -140}
+Moving W 42
+F 42: %Day12.Ship{east: -238, facing: 2, north: -140}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -238, facing: 1, north: -140}
+Moving N 18
+F 18: %Day12.Ship{east: -238, facing: 1, north: -122}
+Moving S 4
+S 4: %Day12.Ship{east: -238, facing: 1, north: -126}
+Moving E 2
+E 2: %Day12.Ship{east: -236, facing: 1, north: -126}
+Turning Right 180 1 -> 3
+R 180: %Day12.Ship{east: -236, facing: 3, north: -126}
+Moving E 5
+E 5: %Day12.Ship{east: -231, facing: 3, north: -126}
+Moving N 2
+N 2: %Day12.Ship{east: -231, facing: 3, north: -124}
+Moving S 70
+F 70: %Day12.Ship{east: -231, facing: 3, north: -194}
+Moving W 5
+W 5: %Day12.Ship{east: -236, facing: 3, north: -194}
+Moving S 39
+F 39: %Day12.Ship{east: -236, facing: 3, north: -233}
+Moving N 3
+N 3: %Day12.Ship{east: -236, facing: 3, north: -230}
+Moving W 1
+W 1: %Day12.Ship{east: -237, facing: 3, north: -230}
+Moving N 5
+N 5: %Day12.Ship{east: -237, facing: 3, north: -225}
+Moving W 2
+W 2: %Day12.Ship{east: -239, facing: 3, north: -225}
+Turning Left 90 3 -> 0
+L 90: %Day12.Ship{east: -239, facing: 0, north: -225}
+Moving N 5
+N 5: %Day12.Ship{east: -239, facing: 0, north: -220}
+Turning Left 90 0 -> 1
+L 90: %Day12.Ship{east: -239, facing: 1, north: -220}
+Moving S 4
+S 4: %Day12.Ship{east: -239, facing: 1, north: -224}
+Moving W 2
+W 2: %Day12.Ship{east: -241, facing: 1, north: -224}
+Turning Left 180 1 -> 3
+L 180: %Day12.Ship{east: -241, facing: 3, north: -224}
+Moving S 62
+F 62: %Day12.Ship{east: -241, facing: 3, north: -286}
+Moving S 1
+S 1: %Day12.Ship{east: -241, facing: 3, north: -287}
+Moving E 4
+E 4: %Day12.Ship{east: -237, facing: 3, north: -287}
+Moving S 89
+F 89: %Day12.Ship{east: -237, facing: 3, north: -376}
+Moving S 2
+S 2: %Day12.Ship{east: -237, facing: 3, north: -378}
+Moving W 5
+W 5: %Day12.Ship{east: -242, facing: 3, north: -378}
+Moving W 4
+W 4: %Day12.Ship{east: -246, facing: 3, north: -378}
+Moving S 1
+S 1: %Day12.Ship{east: -246, facing: 3, north: -379}
+Moving S 86
+F 86: %Day12.Ship{east: -246, facing: 3, north: -465}
+Moving S 12
+F 12: %Day12.Ship{east: -246, facing: 3, north: -477}
+Moving N 5
+N 5: %Day12.Ship{east: -246, facing: 3, north: -472}
+Moving S 76
+F 76: %Day12.Ship{east: -246, facing: 3, north: -548}
+Moving S 2
+S 2: %Day12.Ship{east: -246, facing: 3, north: -550}
+Moving W 5
+W 5: %Day12.Ship{east: -251, facing: 3, north: -550}
+Moving S 32
+F 32: %Day12.Ship{east: -251, facing: 3, north: -582}
+Turning Right 90 3 -> 2
+R 90: %Day12.Ship{east: -251, facing: 2, north: -582}
+Moving W 2
+W 2: %Day12.Ship{east: -253, facing: 2, north: -582}
+Moving W 81
+F 81: %Day12.Ship{east: -334, facing: 2, north: -582}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -334, facing: 1, north: -582}
+Moving W 5
+W 5: %Day12.Ship{east: -339, facing: 1, north: -582}
+Moving N 6
+F 6: %Day12.Ship{east: -339, facing: 1, north: -576}
+Moving S 3
+S 3: %Day12.Ship{east: -339, facing: 1, north: -579}
+Moving W 5
+W 5: %Day12.Ship{east: -344, facing: 1, north: -579}
+Moving N 21
+F 21: %Day12.Ship{east: -344, facing: 1, north: -558}
+Moving E 4
+E 4: %Day12.Ship{east: -340, facing: 1, north: -558}
+Moving N 11
+F 11: %Day12.Ship{east: -340, facing: 1, north: -547}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -340, facing: 0, north: -547}
+Moving S 5
+S 5: %Day12.Ship{east: -340, facing: 0, north: -552}
+Moving N 5
+N 5: %Day12.Ship{east: -340, facing: 0, north: -547}
+Moving W 3
+W 3: %Day12.Ship{east: -343, facing: 0, north: -547}
+Turning Left 180 0 -> 2
+L 180: %Day12.Ship{east: -343, facing: 2, north: -547}
+Moving W 4
+W 4: %Day12.Ship{east: -347, facing: 2, north: -547}
+Moving N 4
+N 4: %Day12.Ship{east: -347, facing: 2, north: -543}
+Turning Left 180 2 -> 0
+L 180: %Day12.Ship{east: -347, facing: 0, north: -543}
+Moving E 2
+E 2: %Day12.Ship{east: -345, facing: 0, north: -543}
+Moving E 71
+F 71: %Day12.Ship{east: -274, facing: 0, north: -543}
+Turning Left 90 0 -> 1
+L 90: %Day12.Ship{east: -274, facing: 1, north: -543}
+Moving E 3
+E 3: %Day12.Ship{east: -271, facing: 1, north: -543}
+Moving N 5
+N 5: %Day12.Ship{east: -271, facing: 1, north: -538}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -271, facing: 0, north: -538}
+Moving W 3
+W 3: %Day12.Ship{east: -274, facing: 0, north: -538}
+Turning Right 90 0 -> 3
+R 90: %Day12.Ship{east: -274, facing: 3, north: -538}
+Moving S 1
+F 1: %Day12.Ship{east: -274, facing: 3, north: -539}
+Moving W 3
+W 3: %Day12.Ship{east: -277, facing: 3, north: -539}
+Moving S 67
+F 67: %Day12.Ship{east: -277, facing: 3, north: -606}
+Turning Right 90 3 -> 2
+R 90: %Day12.Ship{east: -277, facing: 2, north: -606}
+Moving N 5
+N 5: %Day12.Ship{east: -277, facing: 2, north: -601}
+Moving W 64
+F 64: %Day12.Ship{east: -341, facing: 2, north: -601}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -341, facing: 1, north: -601}
+Moving N 4
+N 4: %Day12.Ship{east: -341, facing: 1, north: -597}
+Moving N 2
+F 2: %Day12.Ship{east: -341, facing: 1, north: -595}
+Moving E 3
+E 3: %Day12.Ship{east: -338, facing: 1, north: -595}
+Moving N 4
+N 4: %Day12.Ship{east: -338, facing: 1, north: -591}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -338, facing: 0, north: -591}
+Moving S 2
+S 2: %Day12.Ship{east: -338, facing: 0, north: -593}
+Moving E 73
+F 73: %Day12.Ship{east: -265, facing: 0, north: -593}
+Moving W 4
+W 4: %Day12.Ship{east: -269, facing: 0, north: -593}
+Turning Right 180 0 -> 2
+R 180: %Day12.Ship{east: -269, facing: 2, north: -593}
+Moving S 5
+S 5: %Day12.Ship{east: -269, facing: 2, north: -598}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: -269, facing: 3, north: -598}
+Moving W 4
+W 4: %Day12.Ship{east: -273, facing: 3, north: -598}
+Moving S 60
+F 60: %Day12.Ship{east: -273, facing: 3, north: -658}
+Turning Right 90 3 -> 2
+R 90: %Day12.Ship{east: -273, facing: 2, north: -658}
+Moving W 1
+W 1: %Day12.Ship{east: -274, facing: 2, north: -658}
+Moving N 5
+N 5: %Day12.Ship{east: -274, facing: 2, north: -653}
+Moving W 44
+F 44: %Day12.Ship{east: -318, facing: 2, north: -653}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -318, facing: 1, north: -653}
+Moving S 5
+S 5: %Day12.Ship{east: -318, facing: 1, north: -658}
+Moving E 3
+E 3: %Day12.Ship{east: -315, facing: 1, north: -658}
+Moving N 74
+F 74: %Day12.Ship{east: -315, facing: 1, north: -584}
+Moving N 5
+N 5: %Day12.Ship{east: -315, facing: 1, north: -579}
+Moving N 92
+F 92: %Day12.Ship{east: -315, facing: 1, north: -487}
+Moving W 3
+W 3: %Day12.Ship{east: -318, facing: 1, north: -487}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -318, facing: 0, north: -487}
+Moving E 65
+F 65: %Day12.Ship{east: -253, facing: 0, north: -487}
+Moving N 3
+N 3: %Day12.Ship{east: -253, facing: 0, north: -484}
+Moving E 3
+E 3: %Day12.Ship{east: -250, facing: 0, north: -484}
+Moving N 2
+N 2: %Day12.Ship{east: -250, facing: 0, north: -482}
+Turning Right 90 0 -> 3
+R 90: %Day12.Ship{east: -250, facing: 3, north: -482}
+Moving S 43
+F 43: %Day12.Ship{east: -250, facing: 3, north: -525}
+Turning Right 90 3 -> 2
+R 90: %Day12.Ship{east: -250, facing: 2, north: -525}
+Moving W 53
+F 53: %Day12.Ship{east: -303, facing: 2, north: -525}
+Moving N 5
+N 5: %Day12.Ship{east: -303, facing: 2, north: -520}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: -303, facing: 3, north: -520}
+Moving S 75
+F 75: %Day12.Ship{east: -303, facing: 3, north: -595}
+Moving W 2
+W 2: %Day12.Ship{east: -305, facing: 3, north: -595}
+Turning Right 90 3 -> 2
+R 90: %Day12.Ship{east: -305, facing: 2, north: -595}
+Moving W 66
+F 66: %Day12.Ship{east: -371, facing: 2, north: -595}
+Moving N 4
+N 4: %Day12.Ship{east: -371, facing: 2, north: -591}
+Moving W 25
+F 25: %Day12.Ship{east: -396, facing: 2, north: -591}
+Turning Right 180 2 -> 0
+R 180: %Day12.Ship{east: -396, facing: 0, north: -591}
+Moving N 2
+N 2: %Day12.Ship{east: -396, facing: 0, north: -589}
+Moving W 5
+W 5: %Day12.Ship{east: -401, facing: 0, north: -589}
+Moving E 57
+F 57: %Day12.Ship{east: -344, facing: 0, north: -589}
+Moving E 4
+E 4: %Day12.Ship{east: -340, facing: 0, north: -589}
+Moving E 77
+F 77: %Day12.Ship{east: -263, facing: 0, north: -589}
+Moving E 5
+E 5: %Day12.Ship{east: -258, facing: 0, north: -589}
+Turning Right 90 0 -> 3
+R 90: %Day12.Ship{east: -258, facing: 3, north: -589}
+Moving S 5
+S 5: %Day12.Ship{east: -258, facing: 3, north: -594}
+Moving S 99
+F 99: %Day12.Ship{east: -258, facing: 3, north: -693}
+Moving N 3
+N 3: %Day12.Ship{east: -258, facing: 3, north: -690}
+Moving S 54
+F 54: %Day12.Ship{east: -258, facing: 3, north: -744}
+Moving N 5
+N 5: %Day12.Ship{east: -258, facing: 3, north: -739}
+Moving S 37
+F 37: %Day12.Ship{east: -258, facing: 3, north: -776}
+Moving E 5
+E 5: %Day12.Ship{east: -253, facing: 3, north: -776}
+Moving S 48
+F 48: %Day12.Ship{east: -253, facing: 3, north: -824}
+Moving S 1
+S 1: %Day12.Ship{east: -253, facing: 3, north: -825}
+Moving S 17
+F 17: %Day12.Ship{east: -253, facing: 3, north: -842}
+Moving S 49
+F 49: %Day12.Ship{east: -253, facing: 3, north: -891}
+Turning Left 180 3 -> 1
+L 180: %Day12.Ship{east: -253, facing: 1, north: -891}
+Moving S 2
+S 2: %Day12.Ship{east: -253, facing: 1, north: -893}
+Turning Right 180 1 -> 3
+R 180: %Day12.Ship{east: -253, facing: 3, north: -893}
+Moving N 3
+N 3: %Day12.Ship{east: -253, facing: 3, north: -890}
+Turning Left 180 3 -> 1
+L 180: %Day12.Ship{east: -253, facing: 1, north: -890}
+Moving N 100
+F 100: %Day12.Ship{east: -253, facing: 1, north: -790}
+Moving E 4
+E 4: %Day12.Ship{east: -249, facing: 1, north: -790}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -249, facing: 0, north: -790}
+Moving E 3
+E 3: %Day12.Ship{east: -246, facing: 0, north: -790}
+Turning Right 90 0 -> 3
+R 90: %Day12.Ship{east: -246, facing: 3, north: -790}
+Moving S 49
+F 49: %Day12.Ship{east: -246, facing: 3, north: -839}
+Turning Left 180 3 -> 1
+L 180: %Day12.Ship{east: -246, facing: 1, north: -839}
+Moving W 4
+W 4: %Day12.Ship{east: -250, facing: 1, north: -839}
+Moving S 3
+S 3: %Day12.Ship{east: -250, facing: 1, north: -842}
+Moving E 2
+E 2: %Day12.Ship{east: -248, facing: 1, north: -842}
+Turning Left 90 1 -> 2
+L 90: %Day12.Ship{east: -248, facing: 2, north: -842}
+Moving N 4
+N 4: %Day12.Ship{east: -248, facing: 2, north: -838}
+Moving S 3
+S 3: %Day12.Ship{east: -248, facing: 2, north: -841}
+Moving W 60
+F 60: %Day12.Ship{east: -308, facing: 2, north: -841}
+Moving S 5
+S 5: %Day12.Ship{east: -308, facing: 2, north: -846}
+Moving W 86
+F 86: %Day12.Ship{east: -394, facing: 2, north: -846}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: -394, facing: 3, north: -846}
+Moving E 5
+E 5: %Day12.Ship{east: -389, facing: 3, north: -846}
+Turning Left 180 3 -> 1
+L 180: %Day12.Ship{east: -389, facing: 1, north: -846}
+Moving N 96
+F 96: %Day12.Ship{east: -389, facing: 1, north: -750}
+Turning Left 90 1 -> 2
+L 90: %Day12.Ship{east: -389, facing: 2, north: -750}
+Moving W 4
+W 4: %Day12.Ship{east: -393, facing: 2, north: -750}
+Moving W 30
+F 30: %Day12.Ship{east: -423, facing: 2, north: -750}
+Moving S 1
+S 1: %Day12.Ship{east: -423, facing: 2, north: -751}
+Moving W 31
+F 31: %Day12.Ship{east: -454, facing: 2, north: -751}
+Moving S 4
+S 4: %Day12.Ship{east: -454, facing: 2, north: -755}
+Moving W 78
+F 78: %Day12.Ship{east: -532, facing: 2, north: -755}
+Moving E 3
+E 3: %Day12.Ship{east: -529, facing: 2, north: -755}
+Moving W 51
+F 51: %Day12.Ship{east: -580, facing: 2, north: -755}
+Moving S 2
+S 2: %Day12.Ship{east: -580, facing: 2, north: -757}
+Moving E 5
+E 5: %Day12.Ship{east: -575, facing: 2, north: -757}
+Moving S 4
+S 4: %Day12.Ship{east: -575, facing: 2, north: -761}
+Moving W 5
+F 5: %Day12.Ship{east: -580, facing: 2, north: -761}
+Moving S 1
+S 1: %Day12.Ship{east: -580, facing: 2, north: -762}
+Moving W 45
+F 45: %Day12.Ship{east: -625, facing: 2, north: -762}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -625, facing: 1, north: -762}
+Moving W 2
+W 2: %Day12.Ship{east: -627, facing: 1, north: -762}
+Moving S 3
+S 3: %Day12.Ship{east: -627, facing: 1, north: -765}
+Moving E 5
+E 5: %Day12.Ship{east: -622, facing: 1, north: -765}
+Moving N 46
+F 46: %Day12.Ship{east: -622, facing: 1, north: -719}
+Moving E 4
+E 4: %Day12.Ship{east: -618, facing: 1, north: -719}
+Turning Right 180 1 -> 3
+R 180: %Day12.Ship{east: -618, facing: 3, north: -719}
+Moving S 9
+F 9: %Day12.Ship{east: -618, facing: 3, north: -728}
+Moving W 1
+W 1: %Day12.Ship{east: -619, facing: 3, north: -728}
+Moving S 5
+S 5: %Day12.Ship{east: -619, facing: 3, north: -733}
+Moving W 4
+W 4: %Day12.Ship{east: -623, facing: 3, north: -733}
+Moving S 1
+S 1: %Day12.Ship{east: -623, facing: 3, north: -734}
+Turning Right 90 3 -> 2
+R 90: %Day12.Ship{east: -623, facing: 2, north: -734}
+Moving N 1
+N 1: %Day12.Ship{east: -623, facing: 2, north: -733}
+Moving W 5
+W 5: %Day12.Ship{east: -628, facing: 2, north: -733}
+Moving W 87
+F 87: %Day12.Ship{east: -715, facing: 2, north: -733}
+Moving N 3
+N 3: %Day12.Ship{east: -715, facing: 2, north: -730}
+Moving W 2
+W 2: %Day12.Ship{east: -717, facing: 2, north: -730}
+Moving W 10
+F 10: %Day12.Ship{east: -727, facing: 2, north: -730}
+Moving W 1
+W 1: %Day12.Ship{east: -728, facing: 2, north: -730}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: -728, facing: 3, north: -730}
+Moving S 34
+F 34: %Day12.Ship{east: -728, facing: 3, north: -764}
+Moving S 1
+S 1: %Day12.Ship{east: -728, facing: 3, north: -765}
+Moving E 2
+E 2: %Day12.Ship{east: -726, facing: 3, north: -765}
+Turning Left 270 3 -> 2
+L 270: %Day12.Ship{east: -726, facing: 2, north: -765}
+Moving W 98
+F 98: %Day12.Ship{east: -824, facing: 2, north: -765}
+Moving N 2
+N 2: %Day12.Ship{east: -824, facing: 2, north: -763}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -824, facing: 1, north: -763}
+Moving N 48
+F 48: %Day12.Ship{east: -824, facing: 1, north: -715}
+Moving S 4
+S 4: %Day12.Ship{east: -824, facing: 1, north: -719}
+Moving N 54
+F 54: %Day12.Ship{east: -824, facing: 1, north: -665}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -824, facing: 0, north: -665}
+Moving N 3
+N 3: %Day12.Ship{east: -824, facing: 0, north: -662}
+Moving W 3
+W 3: %Day12.Ship{east: -827, facing: 0, north: -662}
+Turning Right 90 0 -> 3
+R 90: %Day12.Ship{east: -827, facing: 3, north: -662}
+Moving E 4
+E 4: %Day12.Ship{east: -823, facing: 3, north: -662}
+Moving S 4
+S 4: %Day12.Ship{east: -823, facing: 3, north: -666}
+Moving S 93
+F 93: %Day12.Ship{east: -823, facing: 3, north: -759}
+Moving N 1
+N 1: %Day12.Ship{east: -823, facing: 3, north: -758}
+Moving E 2
+E 2: %Day12.Ship{east: -821, facing: 3, north: -758}
+Moving S 42
+F 42: %Day12.Ship{east: -821, facing: 3, north: -800}
+Moving W 4
+W 4: %Day12.Ship{east: -825, facing: 3, north: -800}
+Turning Left 90 3 -> 0
+L 90: %Day12.Ship{east: -825, facing: 0, north: -800}
+Moving E 29
+F 29: %Day12.Ship{east: -796, facing: 0, north: -800}
+Moving E 2
+E 2: %Day12.Ship{east: -794, facing: 0, north: -800}
+Moving E 51
+F 51: %Day12.Ship{east: -743, facing: 0, north: -800}
+Moving S 2
+S 2: %Day12.Ship{east: -743, facing: 0, north: -802}
+Turning Left 90 0 -> 1
+L 90: %Day12.Ship{east: -743, facing: 1, north: -802}
+Moving N 60
+F 60: %Day12.Ship{east: -743, facing: 1, north: -742}
+Moving S 4
+S 4: %Day12.Ship{east: -743, facing: 1, north: -746}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -743, facing: 0, north: -746}
+Turning Left 90 0 -> 1
+L 90: %Day12.Ship{east: -743, facing: 1, north: -746}
+Moving S 1
+S 1: %Day12.Ship{east: -743, facing: 1, north: -747}
+Moving N 58
+F 58: %Day12.Ship{east: -743, facing: 1, north: -689}
+Moving S 4
+S 4: %Day12.Ship{east: -743, facing: 1, north: -693}
+Moving N 81
+F 81: %Day12.Ship{east: -743, facing: 1, north: -612}
+Moving N 2
+N 2: %Day12.Ship{east: -743, facing: 1, north: -610}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -743, facing: 0, north: -610}
+Moving S 1
+S 1: %Day12.Ship{east: -743, facing: 0, north: -611}
+Moving E 28
+F 28: %Day12.Ship{east: -715, facing: 0, north: -611}
+Moving S 3
+S 3: %Day12.Ship{east: -715, facing: 0, north: -614}
+Moving W 5
+W 5: %Day12.Ship{east: -720, facing: 0, north: -614}
+Moving E 50
+F 50: %Day12.Ship{east: -670, facing: 0, north: -614}
+Turning Left 180 0 -> 2
+L 180: %Day12.Ship{east: -670, facing: 2, north: -614}
+Moving S 4
+S 4: %Day12.Ship{east: -670, facing: 2, north: -618}
+Moving E 4
+E 4: %Day12.Ship{east: -666, facing: 2, north: -618}
+Moving W 3
+F 3: %Day12.Ship{east: -669, facing: 2, north: -618}
+Moving E 2
+E 2: %Day12.Ship{east: -667, facing: 2, north: -618}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -667, facing: 1, north: -618}
+Moving W 4
+W 4: %Day12.Ship{east: -671, facing: 1, north: -618}
+Moving N 21
+F 21: %Day12.Ship{east: -671, facing: 1, north: -597}
+Moving E 2
+E 2: %Day12.Ship{east: -669, facing: 1, north: -597}
+Moving S 4
+S 4: %Day12.Ship{east: -669, facing: 1, north: -601}
+Moving N 99
+F 99: %Day12.Ship{east: -669, facing: 1, north: -502}
+Moving N 2
+N 2: %Day12.Ship{east: -669, facing: 1, north: -500}
+Moving W 1
+W 1: %Day12.Ship{east: -670, facing: 1, north: -500}
+Moving N 42
+F 42: %Day12.Ship{east: -670, facing: 1, north: -458}
+Turning Right 180 1 -> 3
+R 180: %Day12.Ship{east: -670, facing: 3, north: -458}
+Moving S 1
+S 1: %Day12.Ship{east: -670, facing: 3, north: -459}
+Moving S 9
+F 9: %Day12.Ship{east: -670, facing: 3, north: -468}
+Turning Left 90 3 -> 0
+L 90: %Day12.Ship{east: -670, facing: 0, north: -468}
+Moving S 4
+S 4: %Day12.Ship{east: -670, facing: 0, north: -472}
+Moving W 3
+W 3: %Day12.Ship{east: -673, facing: 0, north: -472}
+Turning Left 90 0 -> 1
+L 90: %Day12.Ship{east: -673, facing: 1, north: -472}
+Moving N 61
+F 61: %Day12.Ship{east: -673, facing: 1, north: -411}
+Turning Left 90 1 -> 2
+L 90: %Day12.Ship{east: -673, facing: 2, north: -411}
+Moving W 80
+F 80: %Day12.Ship{east: -753, facing: 2, north: -411}
+Moving E 2
+E 2: %Day12.Ship{east: -751, facing: 2, north: -411}
+Moving N 4
+N 4: %Day12.Ship{east: -751, facing: 2, north: -407}
+Moving E 1
+E 1: %Day12.Ship{east: -750, facing: 2, north: -407}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -750, facing: 1, north: -407}
+Moving N 62
+F 62: %Day12.Ship{east: -750, facing: 1, north: -345}
+Moving W 1
+W 1: %Day12.Ship{east: -751, facing: 1, north: -345}
+Moving N 59
+F 59: %Day12.Ship{east: -751, facing: 1, north: -286}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -751, facing: 0, north: -286}
+Moving W 4
+W 4: %Day12.Ship{east: -755, facing: 0, north: -286}
+Moving N 3
+N 3: %Day12.Ship{east: -755, facing: 0, north: -283}
+Moving W 1
+W 1: %Day12.Ship{east: -756, facing: 0, north: -283}
+Turning Left 180 0 -> 2
+L 180: %Day12.Ship{east: -756, facing: 2, north: -283}
+Moving E 2
+E 2: %Day12.Ship{east: -754, facing: 2, north: -283}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -754, facing: 1, north: -283}
+Moving S 1
+S 1: %Day12.Ship{east: -754, facing: 1, north: -284}
+Moving N 24
+F 24: %Day12.Ship{east: -754, facing: 1, north: -260}
+Moving N 1
+N 1: %Day12.Ship{east: -754, facing: 1, north: -259}
+Turning Right 180 1 -> 3
+R 180: %Day12.Ship{east: -754, facing: 3, north: -259}
+Moving W 5
+W 5: %Day12.Ship{east: -759, facing: 3, north: -259}
+Moving S 26
+F 26: %Day12.Ship{east: -759, facing: 3, north: -285}
+Moving E 4
+E 4: %Day12.Ship{east: -755, facing: 3, north: -285}
+Moving N 4
+N 4: %Day12.Ship{east: -755, facing: 3, north: -281}
+Turning Right 90 3 -> 2
+R 90: %Day12.Ship{east: -755, facing: 2, north: -281}
+Moving E 1
+E 1: %Day12.Ship{east: -754, facing: 2, north: -281}
+Moving W 19
+F 19: %Day12.Ship{east: -773, facing: 2, north: -281}
+Moving W 3
+W 3: %Day12.Ship{east: -776, facing: 2, north: -281}
+Moving S 2
+S 2: %Day12.Ship{east: -776, facing: 2, north: -283}
+Turning Left 180 2 -> 0
+L 180: %Day12.Ship{east: -776, facing: 0, north: -283}
+Moving E 18
+F 18: %Day12.Ship{east: -758, facing: 0, north: -283}
+Turning Left 90 0 -> 1
+L 90: %Day12.Ship{east: -758, facing: 1, north: -283}
+Moving W 2
+W 2: %Day12.Ship{east: -760, facing: 1, north: -283}
+Moving N 91
+F 91: %Day12.Ship{east: -760, facing: 1, north: -192}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -760, facing: 0, north: -192}
+Moving E 3
+E 3: %Day12.Ship{east: -757, facing: 0, north: -192}
+Moving E 88
+F 88: %Day12.Ship{east: -669, facing: 0, north: -192}
+Moving N 4
+N 4: %Day12.Ship{east: -669, facing: 0, north: -188}
+Moving W 4
+W 4: %Day12.Ship{east: -673, facing: 0, north: -188}
+Moving E 13
+F 13: %Day12.Ship{east: -660, facing: 0, north: -188}
+Moving W 4
+W 4: %Day12.Ship{east: -664, facing: 0, north: -188}
+Moving E 66
+F 66: %Day12.Ship{east: -598, facing: 0, north: -188}
+Turning Right 90 0 -> 3
+R 90: %Day12.Ship{east: -598, facing: 3, north: -188}
+Moving E 3
+E 3: %Day12.Ship{east: -595, facing: 3, north: -188}
+Moving S 33
+F 33: %Day12.Ship{east: -595, facing: 3, north: -221}
+Turning Left 90 3 -> 0
+L 90: %Day12.Ship{east: -595, facing: 0, north: -221}
+Moving E 24
+F 24: %Day12.Ship{east: -571, facing: 0, north: -221}
+Turning Left 90 0 -> 1
+L 90: %Day12.Ship{east: -571, facing: 1, north: -221}
+Moving N 17
+F 17: %Day12.Ship{east: -571, facing: 1, north: -204}
+Moving S 2
+S 2: %Day12.Ship{east: -571, facing: 1, north: -206}
+Moving E 1
+E 1: %Day12.Ship{east: -570, facing: 1, north: -206}
+Moving N 47
+F 47: %Day12.Ship{east: -570, facing: 1, north: -159}
+Moving S 4
+S 4: %Day12.Ship{east: -570, facing: 1, north: -163}
+Moving N 61
+F 61: %Day12.Ship{east: -570, facing: 1, north: -102}
+Moving S 3
+S 3: %Day12.Ship{east: -570, facing: 1, north: -105}
+Turning Right 270 1 -> 2
+R 270: %Day12.Ship{east: -570, facing: 2, north: -105}
+Moving W 1
+W 1: %Day12.Ship{east: -571, facing: 2, north: -105}
+Turning Left 180 2 -> 0
+L 180: %Day12.Ship{east: -571, facing: 0, north: -105}
+Moving N 2
+N 2: %Day12.Ship{east: -571, facing: 0, north: -103}
+Moving E 1
+E 1: %Day12.Ship{east: -570, facing: 0, north: -103}
+Turning Left 90 0 -> 1
+L 90: %Day12.Ship{east: -570, facing: 1, north: -103}
+Moving N 42
+F 42: %Day12.Ship{east: -570, facing: 1, north: -61}
+Moving E 3
+E 3: %Day12.Ship{east: -567, facing: 1, north: -61}
+Turning Right 180 1 -> 3
+R 180: %Day12.Ship{east: -567, facing: 3, north: -61}
+Moving S 58
+F 58: %Day12.Ship{east: -567, facing: 3, north: -119}
+Moving W 3
+W 3: %Day12.Ship{east: -570, facing: 3, north: -119}
+Turning Right 90 3 -> 2
+R 90: %Day12.Ship{east: -570, facing: 2, north: -119}
+Moving W 4
+W 4: %Day12.Ship{east: -574, facing: 2, north: -119}
+Moving S 3
+S 3: %Day12.Ship{east: -574, facing: 2, north: -122}
+Moving W 54
+F 54: %Day12.Ship{east: -628, facing: 2, north: -122}
+Moving N 3
+N 3: %Day12.Ship{east: -628, facing: 2, north: -119}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: -628, facing: 3, north: -119}
+Moving S 49
+F 49: %Day12.Ship{east: -628, facing: 3, north: -168}
+Turning Left 90 3 -> 0
+L 90: %Day12.Ship{east: -628, facing: 0, north: -168}
+Moving E 49
+F 49: %Day12.Ship{east: -579, facing: 0, north: -168}
+Moving E 2
+E 2: %Day12.Ship{east: -577, facing: 0, north: -168}
+Moving S 3
+S 3: %Day12.Ship{east: -577, facing: 0, north: -171}
+Moving E 76
+F 76: %Day12.Ship{east: -501, facing: 0, north: -171}
+Moving W 2
+W 2: %Day12.Ship{east: -503, facing: 0, north: -171}
+Moving N 2
+N 2: %Day12.Ship{east: -503, facing: 0, north: -169}
+Turning Right 90 0 -> 3
+R 90: %Day12.Ship{east: -503, facing: 3, north: -169}
+Moving S 20
+F 20: %Day12.Ship{east: -503, facing: 3, north: -189}
+Moving N 4
+N 4: %Day12.Ship{east: -503, facing: 3, north: -185}
+Turning Right 180 3 -> 1
+R 180: %Day12.Ship{east: -503, facing: 1, north: -185}
+Moving N 34
+F 34: %Day12.Ship{east: -503, facing: 1, north: -151}
+Moving N 2
+N 2: %Day12.Ship{east: -503, facing: 1, north: -149}
+Moving N 44
+F 44: %Day12.Ship{east: -503, facing: 1, north: -105}
+Moving W 5
+W 5: %Day12.Ship{east: -508, facing: 1, north: -105}
+Moving N 3
+N 3: %Day12.Ship{east: -508, facing: 1, north: -102}
+Moving N 50
+F 50: %Day12.Ship{east: -508, facing: 1, north: -52}
+Turning Right 180 1 -> 3
+R 180: %Day12.Ship{east: -508, facing: 3, north: -52}
+Moving S 13
+F 13: %Day12.Ship{east: -508, facing: 3, north: -65}
+Turning Left 90 3 -> 0
+L 90: %Day12.Ship{east: -508, facing: 0, north: -65}
+Moving E 76
+F 76: %Day12.Ship{east: -432, facing: 0, north: -65}
+Turning Right 270 0 -> 1
+R 270: %Day12.Ship{east: -432, facing: 1, north: -65}
+Moving N 18
+F 18: %Day12.Ship{east: -432, facing: 1, north: -47}
+Moving N 2
+N 2: %Day12.Ship{east: -432, facing: 1, north: -45}
+Moving N 12
+F 12: %Day12.Ship{east: -432, facing: 1, north: -33}
+Turning Left 90 1 -> 2
+L 90: %Day12.Ship{east: -432, facing: 2, north: -33}
+Moving W 1
+W 1: %Day12.Ship{east: -433, facing: 2, north: -33}
+Moving S 5
+S 5: %Day12.Ship{east: -433, facing: 2, north: -38}
+Turning Left 180 2 -> 0
+L 180: %Day12.Ship{east: -433, facing: 0, north: -38}
+Moving E 72
+F 72: %Day12.Ship{east: -361, facing: 0, north: -38}
+Moving N 3
+N 3: %Day12.Ship{east: -361, facing: 0, north: -35}
+Moving E 3
+E 3: %Day12.Ship{east: -358, facing: 0, north: -35}
+Moving W 4
+W 4: %Day12.Ship{east: -362, facing: 0, north: -35}
+Moving E 36
+F 36: %Day12.Ship{east: -326, facing: 0, north: -35}
+Moving E 4
+E 4: %Day12.Ship{east: -322, facing: 0, north: -35}
+Moving E 74
+F 74: %Day12.Ship{east: -248, facing: 0, north: -35}
+Moving S 5
+S 5: %Day12.Ship{east: -248, facing: 0, north: -40}
+Turning Right 90 0 -> 3
+R 90: %Day12.Ship{east: -248, facing: 3, north: -40}
+Moving S 86
+F 86: %Day12.Ship{east: -248, facing: 3, north: -126}
+Turning Left 90 3 -> 0
+L 90: %Day12.Ship{east: -248, facing: 0, north: -126}
+Moving E 63
+F 63: %Day12.Ship{east: -185, facing: 0, north: -126}
+Turning Left 90 0 -> 1
+L 90: %Day12.Ship{east: -185, facing: 1, north: -126}
+Moving S 2
+S 2: %Day12.Ship{east: -185, facing: 1, north: -128}
+Moving W 4
+W 4: %Day12.Ship{east: -189, facing: 1, north: -128}
+Moving N 63
+F 63: %Day12.Ship{east: -189, facing: 1, north: -65}
+Moving N 3
+N 3: %Day12.Ship{east: -189, facing: 1, north: -62}
+Moving E 3
+E 3: %Day12.Ship{east: -186, facing: 1, north: -62}
+Moving E 3
+E 3: %Day12.Ship{east: -183, facing: 1, north: -62}
+Moving S 3
+S 3: %Day12.Ship{east: -183, facing: 1, north: -65}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -183, facing: 0, north: -65}
+Moving W 1
+W 1: %Day12.Ship{east: -184, facing: 0, north: -65}
+Moving S 3
+S 3: %Day12.Ship{east: -184, facing: 0, north: -68}
+Turning Left 90 0 -> 1
+L 90: %Day12.Ship{east: -184, facing: 1, north: -68}
+Moving N 1
+N 1: %Day12.Ship{east: -184, facing: 1, north: -67}
+Moving E 4
+E 4: %Day12.Ship{east: -180, facing: 1, north: -67}
+Moving N 4
+F 4: %Day12.Ship{east: -180, facing: 1, north: -63}
+Moving E 4
+E 4: %Day12.Ship{east: -176, facing: 1, north: -63}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -176, facing: 0, north: -63}
+Moving E 82
+F 82: %Day12.Ship{east: -94, facing: 0, north: -63}
+Moving N 3
+N 3: %Day12.Ship{east: -94, facing: 0, north: -60}
+Moving E 58
+F 58: %Day12.Ship{east: -36, facing: 0, north: -60}
+Moving S 5
+S 5: %Day12.Ship{east: -36, facing: 0, north: -65}
+Turning Right 180 0 -> 2
+R 180: %Day12.Ship{east: -36, facing: 2, north: -65}
+Moving N 3
+N 3: %Day12.Ship{east: -36, facing: 2, north: -62}
+Moving W 98
+F 98: %Day12.Ship{east: -134, facing: 2, north: -62}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -134, facing: 1, north: -62}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -134, facing: 0, north: -62}
+Moving E 29
+F 29: %Day12.Ship{east: -105, facing: 0, north: -62}
+Moving S 2
+S 2: %Day12.Ship{east: -105, facing: 0, north: -64}
+Turning Right 180 0 -> 2
+R 180: %Day12.Ship{east: -105, facing: 2, north: -64}
+Moving W 5
+W 5: %Day12.Ship{east: -110, facing: 2, north: -64}
+Moving N 1
+N 1: %Day12.Ship{east: -110, facing: 2, north: -63}
+Moving W 61
+F 61: %Day12.Ship{east: -171, facing: 2, north: -63}
+Moving N 3
+N 3: %Day12.Ship{east: -171, facing: 2, north: -60}
+Moving E 5
+E 5: %Day12.Ship{east: -166, facing: 2, north: -60}
+Moving S 3
+S 3: %Day12.Ship{east: -166, facing: 2, north: -63}
+Moving E 2
+E 2: %Day12.Ship{east: -164, facing: 2, north: -63}
+Moving W 30
+F 30: %Day12.Ship{east: -194, facing: 2, north: -63}
+Moving N 2
+N 2: %Day12.Ship{east: -194, facing: 2, north: -61}
+Moving W 66
+F 66: %Day12.Ship{east: -260, facing: 2, north: -61}
+Moving W 2
+W 2: %Day12.Ship{east: -262, facing: 2, north: -61}
+Moving N 2
+N 2: %Day12.Ship{east: -262, facing: 2, north: -59}
+Moving W 32
+F 32: %Day12.Ship{east: -294, facing: 2, north: -59}
+Moving W 4
+W 4: %Day12.Ship{east: -298, facing: 2, north: -59}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -298, facing: 1, north: -59}
+Moving N 2
+F 2: %Day12.Ship{east: -298, facing: 1, north: -57}
+Moving E 5
+E 5: %Day12.Ship{east: -293, facing: 1, north: -57}
+Moving N 90
+F 90: %Day12.Ship{east: -293, facing: 1, north: 33}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -293, facing: 0, north: 33}
+Moving E 2
+E 2: %Day12.Ship{east: -291, facing: 0, north: 33}
+Turning Right 90 0 -> 3
+R 90: %Day12.Ship{east: -291, facing: 3, north: 33}
+Moving S 7
+F 7: %Day12.Ship{east: -291, facing: 3, north: 26}
+Turning Right 180 3 -> 1
+R 180: %Day12.Ship{east: -291, facing: 1, north: 26}
+Moving N 5
+N 5: %Day12.Ship{east: -291, facing: 1, north: 31}
+Moving E 1
+E 1: %Day12.Ship{east: -290, facing: 1, north: 31}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -290, facing: 0, north: 31}
+Moving S 2
+S 2: %Day12.Ship{east: -290, facing: 0, north: 29}
+Turning Left 90 0 -> 1
+L 90: %Day12.Ship{east: -290, facing: 1, north: 29}
+Moving N 68
+F 68: %Day12.Ship{east: -290, facing: 1, north: 97}
+Moving W 3
+W 3: %Day12.Ship{east: -293, facing: 1, north: 97}
+Moving N 84
+F 84: %Day12.Ship{east: -293, facing: 1, north: 181}
+Moving S 4
+S 4: %Day12.Ship{east: -293, facing: 1, north: 177}
+Moving E 4
+E 4: %Day12.Ship{east: -289, facing: 1, north: 177}
+Moving S 4
+S 4: %Day12.Ship{east: -289, facing: 1, north: 173}
+Moving E 2
+E 2: %Day12.Ship{east: -287, facing: 1, north: 173}
+Turning Left 90 1 -> 2
+L 90: %Day12.Ship{east: -287, facing: 2, north: 173}
+Moving S 3
+S 3: %Day12.Ship{east: -287, facing: 2, north: 170}
+Moving W 83
+F 83: %Day12.Ship{east: -370, facing: 2, north: 170}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -370, facing: 1, north: 170}
+Moving E 4
+E 4: %Day12.Ship{east: -366, facing: 1, north: 170}
+Turning Right 180 1 -> 3
+R 180: %Day12.Ship{east: -366, facing: 3, north: 170}
+Moving S 2
+S 2: %Day12.Ship{east: -366, facing: 3, north: 168}
+Turning Left 90 3 -> 0
+L 90: %Day12.Ship{east: -366, facing: 0, north: 168}
+Moving E 92
+F 92: %Day12.Ship{east: -274, facing: 0, north: 168}
+Moving E 6
+F 6: %Day12.Ship{east: -268, facing: 0, north: 168}
+Moving W 5
+W 5: %Day12.Ship{east: -273, facing: 0, north: 168}
+Turning Right 90 0 -> 3
+R 90: %Day12.Ship{east: -273, facing: 3, north: 168}
+Moving S 5
+F 5: %Day12.Ship{east: -273, facing: 3, north: 163}
+Turning Right 270 3 -> 0
+R 270: %Day12.Ship{east: -273, facing: 0, north: 163}
+Moving E 85
+F 85: %Day12.Ship{east: -188, facing: 0, north: 163}
+Moving E 1
+E 1: %Day12.Ship{east: -187, facing: 0, north: 163}
+Moving E 9
+F 9: %Day12.Ship{east: -178, facing: 0, north: 163}
+Turning Left 180 0 -> 2
+L 180: %Day12.Ship{east: -178, facing: 2, north: 163}
+Moving N 5
+N 5: %Day12.Ship{east: -178, facing: 2, north: 168}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: -178, facing: 3, north: 168}
+Moving W 1
+W 1: %Day12.Ship{east: -179, facing: 3, north: 168}
+Moving N 3
+N 3: %Day12.Ship{east: -179, facing: 3, north: 171}
+Turning Left 90 3 -> 0
+L 90: %Day12.Ship{east: -179, facing: 0, north: 171}
+Moving E 5
+E 5: %Day12.Ship{east: -174, facing: 0, north: 171}
+Moving E 10
+F 10: %Day12.Ship{east: -164, facing: 0, north: 171}
+Turning Right 180 0 -> 2
+R 180: %Day12.Ship{east: -164, facing: 2, north: 171}
+Moving S 3
+S 3: %Day12.Ship{east: -164, facing: 2, north: 168}
+Moving W 1
+W 1: %Day12.Ship{east: -165, facing: 2, north: 168}
+Moving W 1
+W 1: %Day12.Ship{east: -166, facing: 2, north: 168}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: -166, facing: 3, north: 168}
+Moving E 1
+E 1: %Day12.Ship{east: -165, facing: 3, north: 168}
+Moving S 24
+F 24: %Day12.Ship{east: -165, facing: 3, north: 144}
+Moving E 5
+E 5: %Day12.Ship{east: -160, facing: 3, north: 144}
+Moving S 63
+F 63: %Day12.Ship{east: -160, facing: 3, north: 81}
+Moving E 4
+E 4: %Day12.Ship{east: -156, facing: 3, north: 81}
+Moving S 10
+F 10: %Day12.Ship{east: -156, facing: 3, north: 71}
+Moving E 3
+E 3: %Day12.Ship{east: -153, facing: 3, north: 71}
+Moving S 73
+F 73: %Day12.Ship{east: -153, facing: 3, north: -2}
+Moving W 3
+W 3: %Day12.Ship{east: -156, facing: 3, north: -2}
+Moving S 68
+F 68: %Day12.Ship{east: -156, facing: 3, north: -70}
+Moving N 5
+N 5: %Day12.Ship{east: -156, facing: 3, north: -65}
+Moving W 3
+W 3: %Day12.Ship{east: -159, facing: 3, north: -65}
+Moving S 90
+F 90: %Day12.Ship{east: -159, facing: 3, north: -155}
+Turning Right 90 3 -> 2
+R 90: %Day12.Ship{east: -159, facing: 2, north: -155}
+Moving W 2
+W 2: %Day12.Ship{east: -161, facing: 2, north: -155}
+Moving W 79
+F 79: %Day12.Ship{east: -240, facing: 2, north: -155}
+Moving N 5
+N 5: %Day12.Ship{east: -240, facing: 2, north: -150}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -240, facing: 1, north: -150}
+Moving N 71
+F 71: %Day12.Ship{east: -240, facing: 1, north: -79}
+Moving E 4
+E 4: %Day12.Ship{east: -236, facing: 1, north: -79}
+Moving N 51
+F 51: %Day12.Ship{east: -236, facing: 1, north: -28}
+Moving E 4
+E 4: %Day12.Ship{east: -232, facing: 1, north: -28}
+Moving N 11
+F 11: %Day12.Ship{east: -232, facing: 1, north: -17}
+Moving W 4
+W 4: %Day12.Ship{east: -236, facing: 1, north: -17}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -236, facing: 0, north: -17}
+Moving N 5
+N 5: %Day12.Ship{east: -236, facing: 0, north: -12}
+Moving E 41
+F 41: %Day12.Ship{east: -195, facing: 0, north: -12}
+Turning Left 180 0 -> 2
+L 180: %Day12.Ship{east: -195, facing: 2, north: -12}
+Moving S 4
+S 4: %Day12.Ship{east: -195, facing: 2, north: -16}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: -195, facing: 3, north: -16}
+Moving S 18
+F 18: %Day12.Ship{east: -195, facing: 3, north: -34}
+Turning Right 90 3 -> 2
+R 90: %Day12.Ship{east: -195, facing: 2, north: -34}
+Moving N 3
+N 3: %Day12.Ship{east: -195, facing: 2, north: -31}
+Moving W 5
+W 5: %Day12.Ship{east: -200, facing: 2, north: -31}
+Moving W 38
+F 38: %Day12.Ship{east: -238, facing: 2, north: -31}
+Moving S 5
+S 5: %Day12.Ship{east: -238, facing: 2, north: -36}
+Moving W 24
+F 24: %Day12.Ship{east: -262, facing: 2, north: -36}
+Moving S 2
+S 2: %Day12.Ship{east: -262, facing: 2, north: -38}
+Moving W 25
+F 25: %Day12.Ship{east: -287, facing: 2, north: -38}
+Moving W 4
+W 4: %Day12.Ship{east: -291, facing: 2, north: -38}
+Moving N 2
+N 2: %Day12.Ship{east: -291, facing: 2, north: -36}
+Moving E 2
+E 2: %Day12.Ship{east: -289, facing: 2, north: -36}
+Moving W 36
+F 36: %Day12.Ship{east: -325, facing: 2, north: -36}
+Moving N 2
+N 2: %Day12.Ship{east: -325, facing: 2, north: -34}
+Turning Left 90 2 -> 3
+L 90: %Day12.Ship{east: -325, facing: 3, north: -34}
+Moving S 30
+F 30: %Day12.Ship{east: -325, facing: 3, north: -64}
+Moving W 1
+W 1: %Day12.Ship{east: -326, facing: 3, north: -64}
+Moving S 56
+F 56: %Day12.Ship{east: -326, facing: 3, north: -120}
+Turning Left 90 3 -> 0
+L 90: %Day12.Ship{east: -326, facing: 0, north: -120}
+Moving W 5
+W 5: %Day12.Ship{east: -331, facing: 0, north: -120}
+Moving S 2
+S 2: %Day12.Ship{east: -331, facing: 0, north: -122}
+Moving E 3
+E 3: %Day12.Ship{east: -328, facing: 0, north: -122}
+Turning Right 90 0 -> 3
+R 90: %Day12.Ship{east: -328, facing: 3, north: -122}
+Moving S 63
+F 63: %Day12.Ship{east: -328, facing: 3, north: -185}
+Moving W 2
+W 2: %Day12.Ship{east: -330, facing: 3, north: -185}
+Moving S 63
+F 63: %Day12.Ship{east: -330, facing: 3, north: -248}
+Moving S 4
+S 4: %Day12.Ship{east: -330, facing: 3, north: -252}
+Moving W 3
+W 3: %Day12.Ship{east: -333, facing: 3, north: -252}
+Moving S 81
+F 81: %Day12.Ship{east: -333, facing: 3, north: -333}
+Turning Right 90 3 -> 2
+R 90: %Day12.Ship{east: -333, facing: 2, north: -333}
+Moving S 1
+S 1: %Day12.Ship{east: -333, facing: 2, north: -334}
+Turning Left 270 2 -> 1
+L 270: %Day12.Ship{east: -333, facing: 1, north: -334}
+Moving N 5
+N 5: %Day12.Ship{east: -333, facing: 1, north: -329}
+Turning Left 90 1 -> 2
+L 90: %Day12.Ship{east: -333, facing: 2, north: -329}
+Moving W 2
+W 2: %Day12.Ship{east: -335, facing: 2, north: -329}
+Moving W 6
+F 6: %Day12.Ship{east: -341, facing: 2, north: -329}
+Moving W 4
+W 4: %Day12.Ship{east: -345, facing: 2, north: -329}
+Turning Left 180 2 -> 0
+L 180: %Day12.Ship{east: -345, facing: 0, north: -329}
+Moving E 2
+E 2: %Day12.Ship{east: -343, facing: 0, north: -329}
+Turning Left 180 0 -> 2
+L 180: %Day12.Ship{east: -343, facing: 2, north: -329}
+Moving W 3
+W 3: %Day12.Ship{east: -346, facing: 2, north: -329}
+Turning Right 90 2 -> 1
+R 90: %Day12.Ship{east: -346, facing: 1, north: -329}
+Moving S 3
+S 3: %Day12.Ship{east: -346, facing: 1, north: -332}
+Turning Right 90 1 -> 0
+R 90: %Day12.Ship{east: -346, facing: 0, north: -332}
+Moving E 49
+F 49: %Day12.Ship{east: -297, facing: 0, north: -332}
+Moving N 4
+N 4: %Day12.Ship{east: -297, facing: 0, north: -328}
+Moving E 23
+F 23: %Day12.Ship{east: -274, facing: 0, north: -328}
+Turning Right 90 0 -> 3
+R 90: %Day12.Ship{east: -274, facing: 3, north: -328}
+Moving W 4
+W 4: %Day12.Ship{east: -278, facing: 3, north: -328}
+Moving N 5
+N 5: %Day12.Ship{east: -278, facing: 3, north: -323}
+Turning Left 90 3 -> 0
+L 90: %Day12.Ship{east: -278, facing: 0, north: -323}
+Moving E 8
+F 8: %Day12.Ship{east: -270, facing: 0, north: -323}
+Turning Right 90 0 -> 3
+R 90: %Day12.Ship{east: -270, facing: 3, north: -323}
+Moving S 12
+F 12: %Day12.Ship{east: -270, facing: 3, north: -335}
+Moving E 2
+E 2: %Day12.Ship{east: -268, facing: 3, north: -335}
+Turning Left 180 3 -> 1
+L 180: %Day12.Ship{east: -268, facing: 1, north: -335}
+Moving N 95
+F 95: %Day12.Ship{east: -268, facing: 1, north: -240}
+12-1: The Manhattan distance is [508]
