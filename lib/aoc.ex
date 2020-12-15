@@ -3,10 +3,10 @@ defmodule AOC do
         days = [
             Day1, Day2, Day3, Day4, Day5,
             Day6, Day7, Day8, Day9, Day10,
-            Day11, Day12, Day13, Day14
+            Day11, Day12, Day13, Day14, Day15
         ]
         tasks = days |> Enum.map(&Task.async(fn -> &1.run() end))
-        tasks |> Enum.each(&Task.await(&1, 25_000))
+        tasks |> Enum.each(&Task.await(&1, 30_000))
     end
 end
 
