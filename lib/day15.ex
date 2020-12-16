@@ -11,8 +11,9 @@ defmodule Day15 do
 
     defp turn(prev, _, _, round, limit) when round == (limit + 1), do: prev
     defp turn(prev, map, last, round, limit) do
-        {new_map, next} = if Map.get(map, last) != :nil do
-            {Map.update!(map, last, fn(_) -> round end), round - Map.get(map, last)}
+        last_round = Map.get(map, last)
+        {new_map, next} = if last_round != :nil do
+            {Map.update!(map, last, fn(_) -> round end), round - last_round}
         else
             {Map.put_new(map, last, round), 0}
         end

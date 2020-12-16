@@ -23,7 +23,8 @@ defmodule Day2 do
     end
 
     defp part1(lines) do
-        IO.puts "2-1: There are [#{lines |> Enum.map(&charCountValid/1) |> Enum.sum}] valid passwords"
+        result = lines |> Enum.map(&charCountValid/1) |> Enum.sum
+        IO.puts "2-1: There are [#{result}] valid passwords"
     end
 
     defp xor(a, b), do: (a and !b) or (!a and b)
@@ -37,8 +38,7 @@ defmodule Day2 do
     end
 
     defp part2(lines) do
-        IO.puts "2-2: There are [#{
-            lines |> Enum.map(&charLocValid/1) |> Enum.filter(&(&1)) |> Enum.count
-        }] valid passwords"
+        result = lines |> Enum.map(&charLocValid/1) |> Enum.filter(&(&1))
+        IO.puts "2-2: There are [#{length(result)}] valid passwords"
     end
 end

@@ -7,12 +7,13 @@ defmodule Day1 do
     end
 
     defp part1(nums) do
-        IO.puts "1-1: [#{case nums 
+        result = case nums 
             |> Enum.filter(&(nums |> Enum.member?(2020 - &1)))
             |> List.first do
             :nil -> "No answers"
             n -> n * (2020 - n)
-        end}]"
+        end
+        IO.puts "1-1: [#{result}]"
     end
 
     defp part2(nums) do
@@ -24,17 +25,5 @@ defmodule Day1 do
             x + y + z == 2020,
             do: x * y * z
         IO.puts "1-2: [#{result}]"
-
-        # Old solution:
-        # result = nums 
-        #     |> Comb.combinations(3) 
-        #     |> Stream.filter(fn(c) -> Enum.reduce(c, &+/2) == 2020 end)
-        #     |> Stream.map(fn(s) -> Enum.reduce(s, &*/2) end)
-        #     |> Enum.take(1)
-        #     |> List.first
-        # IO.puts "1-2: [#{case result do
-        #     :nil -> "No result"
-        #     n -> n
-        # end}]"
     end
   end

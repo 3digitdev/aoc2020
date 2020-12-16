@@ -15,23 +15,23 @@ defmodule Day4 do
         day2(lines, fields)
     end
 
+    defp count_entries(e, f, found \\ 0)
+    defp count_entries([], _, found), do: found
+    defp count_entries([entry|rest], fields, found) do
+        total = fields |> Map.values |> Enum.count(&(Regex.match?(&1, entry)))
+        count_entries(rest, fields, if total == 0 do found else found + 1 end)
+    end
+
+    defp count_passports(p, f, valid \\ 0)
+    defp count_passports([], _, valid), do: valid
+    defp count_passports([pass|rest], fields, valid) do
+        entries = count_entries(String.split(pass), fields)
+        valid = valid + (if entries < Enum.count(fields) do 0 else 1 end)
+        count_passports(rest, fields, valid)
+    end
+
     defp day1(lines, fields) do
-        validPassports = lines
-            |> Enum.reduce(0, fn(line, valid) ->
-                entries = line
-                    |> String.split
-                    |> Enum.reduce(0, fn(entry, found) ->
-                        case fields 
-                            |> Map.values 
-                            |> Enum.filter(&(Regex.match?(&1, entry))) 
-                            |> Enum.count do
-                            0 -> found
-                            _ -> found + 1
-                        end
-                    end)
-                if entries < Enum.count(fields) do valid else valid + 1 end
-            end)
-        IO.puts "4-1: There are [#{validPassports}] valid passports"
+        IO.puts "4-1: There are [#{count_passports(lines, fields)}] valid passports"
     end
 
     defp inRange?(data, range), do: String.to_integer(data) in range
@@ -58,21 +58,22 @@ defmodule Day4 do
         end
     end
 
+    defp validate_fields(f, entry, fields, found \\ false)
+    defp validate_fields([], _, _, found), do: found
+    defp validate_fields([f|rest], entry, fields, found) do
+        field = Map.get(fields, f)
+        found = found or (Regex.match?(field, entry) and fieldValid?(f, field, entry))
+        validate_fields(rest, entry, fields, found)
+    end
+
     defp day2(lines, fields) do
         validPassports = lines
-            |> Enum.filter(fn(line) ->
+            |> Enum.count(fn(line) ->
                 line
                     |> String.split
-                    |> Enum.filter(fn(entry) ->
-                        fields
-                            |> Map.keys
-                            |> Enum.reduce(false, fn(f, found) ->
-                                found or (Regex.match?(Map.get(fields, f), entry) and fieldValid?(f, Map.get(fields, f), entry))
-                            end)
-                    end)
-                    |> Enum.count == fields |> Map.keys |> Enum.count
+                    |> Enum.count(&(validate_fields(Map.keys(fields), &1, fields)))
+                    == length(Map.keys(fields))
             end)
-            |> Enum.count
         IO.puts "4-2: There are [#{validPassports}] ACTUALLY valid passports"
     end
 end
