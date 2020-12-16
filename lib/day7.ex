@@ -14,8 +14,10 @@ defmodule Day7 do
         Regex.scan(child_reg, child_rules, [{:capture, :all_but_first}])
     end
 
-    defp count_parents(node, parents), do: Enum.reduce(node.containers, parents ++ [node.name], &count_parents/2)
-    defp count_parents(node), do: Enum.reduce(node.containers, [], &count_parents/2) |> Enum.uniq |> Enum.count
+    defp count_parents(%Bag{containers: c, name: n}, parents), do: c 
+        |> Enum.reduce(parents ++ [n], &count_parents/2)
+    defp count_parents(%Bag{containers: c}), do: c 
+        |> Enum.reduce([], &count_parents/2) |> Enum.uniq |> Enum.count
 
     defp build_bag({num, leaf}, containers) do
         name = Map.get(leaf, "name")
@@ -31,36 +33,36 @@ defmodule Day7 do
                 |> Enum.reduce([], &(&2 ++ [build_bag({num, &1}, containers)]))
         }
     end
-    defp build_bag(map) do
-        map 
-            |> Enum.reduce(%{}, fn(part, parts) ->
-                case part do
-                    {"children", c} -> Map.put(parts, "children", parse_child(c))
-                    {"name", p} -> Map.put(parts, "name", p)
-                    _ -> IO.puts parts
-                end
-            end)
+
+    defp parse_bag(b, bagmap \\ %{})
+    defp parse_bag([], bagmap), do: bagmap
+    defp parse_bag([part|rest], bagmap) do
+        bagmap = case part do
+            {"children", c} -> Map.put(bagmap, "children", parse_child(c))
+            {"name", p} -> Map.put(bagmap, "name", p)
+            _ -> bagmap
+        end
+        parse_bag(rest, bagmap)
     end
 
     defp parse_rules(containers) do
-        leaf = containers
-            |> Enum.filter(&(Map.get(&1, "name") == "shiny gold"))
-            |> List.first
+        leaf = hd(Enum.filter(containers, &(Map.get(&1, "name") == "shiny gold")))
         build_bag({0, leaf}, containers)
     end
 
+    defp format_rules(rules), do: rules 
+        |> Enum.map(fn(r) ->
+            ~r/(?<name>[\w ]+) bags contain (?<children>.*)/ 
+                |> Regex.named_captures(r) 
+                |> Map.to_list 
+                |> parse_bag 
+        end)
+
     defp part1(rules) do
-        rule_reg = ~r/(?<name>[\w ]+) bags contain (?<children>.*)/
-        leaf = rules 
-            |> Enum.map(fn(r) -> Regex.named_captures(rule_reg, r) |> Map.to_list end)
-            |> Enum.map(&build_bag/1)
+        leaf = rules
+            |> format_rules
             |> parse_rules
         IO.puts "7-1: There are [#{count_parents(leaf)}] containers"
-    end
-
-    defp debug(thing, prefix) do
-        IO.puts "#{prefix}: #{inspect thing}"
-        thing
     end
 
     defp find_total_bags(map, name) do
@@ -75,15 +77,9 @@ defmodule Day7 do
     end
 
     defp part2(rules) do
-        rule_reg = ~r/(?<name>[\w ]+) bags contain (?<children>.*)/
-        total = rules 
-            |> Enum.map(fn(r) -> Regex.named_captures(rule_reg, r) |> Map.to_list end)
-            |> Enum.map(&build_bag/1)
-            |> Enum.reduce(%{}, fn(bag, bag_map) ->
-                Map.put(bag_map, Map.get(bag, "name"), Map.get(bag, "children"))
-            end)
-            # %{<bag_name> => [[<num>, <child_name>], ...]  OR [[]]}
-            |> find_total_bags("shiny gold")
-        IO.puts "7-2: The shiny gold bag contains [#{total}] other bags"
+        map = for rule <- format_rules(rules),
+            into: %{},
+            do: {Map.get(rule, "name"), Map.get(rule, "children")}
+        IO.puts "7-2: The shiny gold bag contains [#{find_total_bags(map, "shiny gold")}] other bags"
     end
 end

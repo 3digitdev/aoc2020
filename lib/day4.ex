@@ -4,7 +4,7 @@ defmodule Day4 do
             |> Enum.chunk_by(&(&1 == ""))
             |> Enum.filter(&(&1 != [""]))
             |> Enum.map(&(Enum.join(&1, " ")))
-        fields = ["byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"]
+        fields = ~w(byr iyr eyr hgt hcl ecl pid)s
             |> Enum.reduce(%{}, fn(f, m) -> 
                 case Regex.compile("#{f}:(?<data>[^ ]*)") do
                     {:ok, r} -> Map.put(m, f, r)
