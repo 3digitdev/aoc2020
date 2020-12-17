@@ -1,6 +1,6 @@
 defmodule Day7 do
     def run do
-        rules = Input.readFile("day7")
+        rules = Input.read_file("day7")
         part1(rules)
         part2(rules)
     end

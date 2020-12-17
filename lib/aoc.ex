@@ -3,7 +3,8 @@ defmodule AOC do
         days = [
             Day1, Day2, Day3, Day4, Day5,
             Day6, Day7, Day8, Day9, Day10,
-            Day11, Day12, Day13, Day14, Day15
+            Day11, Day12, Day13, Day14, Day15,
+            Day16
         ]
         tasks = days |> Enum.map(&Task.async(fn -> &1.run() end))
         tasks |> Enum.each(&Task.await(&1, 30_000))
@@ -11,9 +12,14 @@ defmodule AOC do
 end
 
 defmodule Input do
-  def readFile(day) do
+  def read_file(day) do
     {:ok, lines} = File.read("inputs/#{day}.txt")
     lines |> String.split("\n")
+  end
+
+  def read_file_no_split(day) do
+      {:ok, lines} = File.read("inputs/#{day}.txt")
+      lines
   end
 end
 

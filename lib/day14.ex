@@ -1,6 +1,6 @@
 defmodule Day14 do
     def run do
-        lines = Input.readFile("day14")
+        lines = Input.read_file("day14")
             |> Enum.chunk_by(&(Regex.match?(~r/mask/, &1)))
             |> Enum.chunk_every(2)
             |> Enum.map(&List.flatten/1)

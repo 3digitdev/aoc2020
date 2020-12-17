@@ -1,6 +1,6 @@
 defmodule Day3 do
     def run do
-        lines = Input.readFile("day3")
+        lines = Input.read_file("day3")
         part1(lines)
         part2(lines)
     end

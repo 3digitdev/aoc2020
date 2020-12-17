@@ -1,6 +1,6 @@
 defmodule Day8 do
     def run do
-        all_cmds = Input.readFile("day8")
+        all_cmds = Input.read_file("day8")
             |> Enum.with_index 
             |> Enum.map(&parse_cmd/1) 
             |> Enum.sort(&(&1.line < &2.line))

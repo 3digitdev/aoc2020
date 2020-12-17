@@ -1,6 +1,6 @@
 defmodule Day12 do
     def run do
-        commands = Input.readFile("day12")
+        commands = Input.read_file("day12")
         commands = commands |> Enum.map(fn(l) ->
             [_, cmd, num] = Regex.run(~r/([NSEWLRF])(\d+)/, l)
             {cmd, String.to_integer(num)}

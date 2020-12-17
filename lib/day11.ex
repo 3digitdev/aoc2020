@@ -1,6 +1,6 @@
 defmodule Day11 do
     def run do
-        seats = Input.readFile("day11")
+        seats = Input.read_file("day11")
             |> Enum.map(&(for <<c <- &1>>, do: <<c>>))  # split binary string into chars
         seats = for {row, r} <- Enum.with_index(seats),
             {col, c} <- Enum.with_index(row),

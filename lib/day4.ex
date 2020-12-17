@@ -1,6 +1,6 @@
 defmodule Day4 do
     def run do
-        lines = Input.readFile("day4") 
+        lines = Input.read_file("day4") 
             |> Enum.chunk_by(&(&1 == ""))
             |> Enum.filter(&(&1 != [""]))
             |> Enum.map(&(Enum.join(&1, " ")))

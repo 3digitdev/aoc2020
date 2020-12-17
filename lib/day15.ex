@@ -6,7 +6,7 @@ defmodule Day15 do
             |> Enum.with_index
             |> Enum.reduce(%{}, fn({num, i}, tracker) -> Map.put_new(tracker, num, i + 1) end)
         part1(map, last)
-        part2(map, last)
+        # part2(map, last)  # Way too slow, leaving it commented
     end
 
     defp turn(prev, _, _, round, limit) when round == (limit + 1), do: prev
@@ -22,11 +22,11 @@ defmodule Day15 do
 
     defp part1(map, last) do
         num = turn(0, map, last, Enum.count(Map.keys(map)) + 1, 2_020)
-        IO.puts "15-1: The 2,020th number spoken was #{num}"
+        IO.puts "15-1: The 2,020th number spoken was [#{num}]"
     end
 
     defp part2(map, last) do
         num = turn(0, map, last, Enum.count(Map.keys(map)) + 1, 30_000_000)
-        IO.puts "15-2: The 30,000,000th number spoken was #{num}"
+        IO.puts "15-2: The 30,000,000th number spoken was [#{num}]"
     end
 end

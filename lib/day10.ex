@@ -1,6 +1,6 @@
 defmodule Day10 do
     def run do
-        jolts = Input.readFile("day10") |> Enum.map(&String.to_integer/1) |> Enum.sort
+        jolts = Input.read_file("day10") |> Enum.map(&String.to_integer/1) |> Enum.sort
         jolts = jolts ++ [0, Enum.max(jolts) + 3]
         part1(jolts)
         part2(jolts)

@@ -1,6 +1,6 @@
 defmodule Day9 do
     def run do
-        nums = Input.readFile("day9") |> Enum.map(&String.to_integer/1)
+        nums = Input.read_file("day9") |> Enum.map(&String.to_integer/1)
         result = part1(nums)
         part2(nums, result)
     end

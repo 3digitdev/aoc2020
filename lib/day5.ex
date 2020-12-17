@@ -1,6 +1,6 @@
 defmodule Day5 do
     def run do
-        passes = Input.readFile("day5")
+        passes = Input.read_file("day5")
             |> Enum.filter(&(&1 != ""))
             |> Enum.map(&(String.split(&1, "")
             |> Enum.filter(fn(x) -> x != "" end)))

@@ -1,6 +1,6 @@
 defmodule Day13 do
     def run do
-        [time, buses] = Input.readFile("day13")
+        [time, buses] = Input.read_file("day13")
         time = String.to_integer(time)
         buses = buses 
             |> String.split(",")
